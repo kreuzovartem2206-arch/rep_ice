@@ -1,0 +1,31 @@
+{
+  "status": "ok",
+  "processed": 2,
+  "cached": 0,
+  "failed": [],
+  "partial": [],
+  "search_start": "2025-07-05T00:00:00Z",
+  "search_end": "2025-07-06T00:00:00Z",
+  "found": 2,
+  "generated_at": "2026-09-17T14:58:54.392179+00:00",
+  "last_usable_observation": "2025-07-05T07:19:07.839000+00:00",
+  "age_hours": 10543.662931438612,
+  "stale": true,
+  "total_scenes": 2,
+  "total_observations": 1,
+  "config_fingerprint": "b974bc10fc8ea7b83d3a6d12707949488d402378410a3ee77ba47671b529fddb",
+  "notice": "Research candidates. No observation does not mean no ice. Grounding is unverified.",
+  "freshness_by_sensor": {
+    "S2": {
+      "last_usable_observation": "2025-07-05T07:19:07.839000+00:00",
+      "age_hours": 10543.662931438612,
+      "stale": true
+    },
+    "S1": {
+      "last_usable_observation": null,
+      "age_hours": null,
+      "stale": true
+    }
+  },
+  "small_objects_optical_stale": true
+}

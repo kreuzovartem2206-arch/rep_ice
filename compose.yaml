@@ -1,0 +1,10 @@
+services:
+  optical-monitor:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - ice-data:/data
+    mem_limit: 4g
+    cpus: 2
+volumes:
+  ice-data:

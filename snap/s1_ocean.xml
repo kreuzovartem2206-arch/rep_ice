@@ -1,0 +1,11 @@
+<graph id="S1 ocean linear sigma0">
+  <version>1.0</version>
+  <node id="Read"><operator>Read</operator><sources/><parameters><file>${input}</file></parameters></node>
+  <node id="Orbit"><operator>Apply-Orbit-File</operator><sources><sourceProduct refid="Read"/></sources><parameters><orbitType>${orbitType}</orbitType><continueOnFail>false</continueOnFail></parameters></node>
+  <node id="Border"><operator>Remove-GRD-Border-Noise</operator><sources><sourceProduct refid="Orbit"/></sources><parameters/></node>
+  <node id="Thermal"><operator>ThermalNoiseRemoval</operator><sources><sourceProduct refid="Border"/></sources><parameters><removeThermalNoise>true</removeThermalNoise></parameters></node>
+  <node id="Calibration"><operator>Calibration</operator><sources><sourceProduct refid="Thermal"/></sources><parameters><selectedPolarisations>${polarization}</selectedPolarisations><outputSigmaBand>true</outputSigmaBand><outputImageScaleInDb>false</outputImageScaleInDb></parameters></node>
+  <node id="Subset"><operator>Subset</operator><sources><sourceProduct refid="Calibration"/></sources><parameters><geoRegion>${region}</geoRegion><copyMetadata>true</copyMetadata></parameters></node>
+  <node id="Geocode"><operator>Ellipsoid-Correction-RD</operator><sources><sourceProduct refid="Subset"/></sources><parameters><imgResamplingMethod>BILINEAR_INTERPOLATION</imgResamplingMethod><pixelSpacingInMeter>${spacing}</pixelSpacingInMeter><mapProjection>EPSG:32643</mapProjection></parameters></node>
+  <node id="Write"><operator>Write</operator><sources><sourceProduct refid="Geocode"/></sources><parameters><file>${output}</file><formatName>GeoTIFF-BigTIFF</formatName></parameters></node>
+</graph>

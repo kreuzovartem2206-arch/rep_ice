@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Small offshore pilot east of Bely Island","status":"Pilot ROI; validate against local coastline before extending"},"geometry":{"type":"Polygon","coordinates":[[[72.1,73.0],[72.4,73.0],[72.4,73.15],[72.1,73.15],[72.1,73.0]]]}}]}

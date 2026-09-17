@@ -1,0 +1,24 @@
+[
+  {
+    "id": "S2B_43XDB_20250705_0_L2A",
+    "collection": "sentinel-2-l2a",
+    "datetime": "2025-07-05T07:18:58.481000Z",
+    "assets": {
+      "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/43/X/DB/2025/7/S2B_43XDB_20250705_0_L2A/B03.tif",
+      "swir16": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/43/X/DB/2025/7/S2B_43XDB_20250705_0_L2A/B11.tif",
+      "scl": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/43/X/DB/2025/7/S2B_43XDB_20250705_0_L2A/SCL.tif"
+    },
+    "attribution": "Contains modified Copernicus Sentinel data 2025"
+  },
+  {
+    "id": "S2B_42XWG_20250705_0_L2A",
+    "collection": "sentinel-2-l2a",
+    "datetime": "2025-07-05T07:19:07.839000Z",
+    "assets": {
+      "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/42/X/WG/2025/7/S2B_42XWG_20250705_0_L2A/B03.tif",
+      "swir16": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/42/X/WG/2025/7/S2B_42XWG_20250705_0_L2A/B11.tif",
+      "scl": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/42/X/WG/2025/7/S2B_42XWG_20250705_0_L2A/SCL.tif"
+    },
+    "attribution": "Contains modified Copernicus Sentinel data 2025"
+  }
+]

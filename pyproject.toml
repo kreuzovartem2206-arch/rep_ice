@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arctic-ice-monitor"
+version = "0.1.0"
+description = "Experimental L1/L2 ice-object monitoring for a Kara Sea pilot"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2,<3", "rasterio>=1.4,<2", "shapely>=2,<3", "pyproj>=3.6,<4", "scipy>=1.14,<2", "requests>=2.32,<3"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+ice-monitor = "ice_monitor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
