@@ -1,0 +1,95 @@
+{
+  "status": "catalogue_coverage_only",
+  "source": "https://stac.dataspace.copernicus.eu/v1/search",
+  "input_level": "L1",
+  "scope_note": "Analytical maritime envelope adjacent to Russia, including the Arctic basin; not a legal boundary or EEZ. Land is removed using Natural Earth 1:50m, suitable only for overview coverage.",
+  "area_km2": 6253085,
+  "unique_scenes": 5310,
+  "grid_cells": 770,
+  "summary": [
+    {
+      "month": "2025-12",
+      "mode": "ALL",
+      "scenes": 1994,
+      "footprint_coverage_percent": 97.32,
+      "known_size_gb_lower_bound": 1.06,
+      "scenes_with_size": 1,
+      "size_metadata_complete": false
+    },
+    {
+      "month": "2025-12",
+      "mode": "IW",
+      "scenes": 788,
+      "footprint_coverage_percent": 31.24,
+      "known_size_gb_lower_bound": 1.06,
+      "scenes_with_size": 1,
+      "size_metadata_complete": false
+    },
+    {
+      "month": "2025-12",
+      "mode": "EW",
+      "scenes": 1206,
+      "footprint_coverage_percent": 96.06,
+      "known_size_gb_lower_bound": 0.0,
+      "scenes_with_size": 0,
+      "size_metadata_complete": false
+    },
+    {
+      "month": "2026-01",
+      "mode": "ALL",
+      "scenes": 1779,
+      "footprint_coverage_percent": 97.31,
+      "known_size_gb_lower_bound": 134.23,
+      "scenes_with_size": 221,
+      "size_metadata_complete": false
+    },
+    {
+      "month": "2026-01",
+      "mode": "IW",
+      "scenes": 769,
+      "footprint_coverage_percent": 33.1,
+      "known_size_gb_lower_bound": 99.86,
+      "scenes_with_size": 94,
+      "size_metadata_complete": false
+    },
+    {
+      "month": "2026-01",
+      "mode": "EW",
+      "scenes": 1010,
+      "footprint_coverage_percent": 96.05,
+      "known_size_gb_lower_bound": 34.37,
+      "scenes_with_size": 127,
+      "size_metadata_complete": false
+    },
+    {
+      "month": "2026-02",
+      "mode": "ALL",
+      "scenes": 1537,
+      "footprint_coverage_percent": 95.36,
+      "known_size_gb_lower_bound": 952.99,
+      "scenes_with_size": 1537,
+      "size_metadata_complete": true
+    },
+    {
+      "month": "2026-02",
+      "mode": "IW",
+      "scenes": 654,
+      "footprint_coverage_percent": 30.06,
+      "known_size_gb_lower_bound": 710.29,
+      "scenes_with_size": 654,
+      "size_metadata_complete": true
+    },
+    {
+      "month": "2026-02",
+      "mode": "EW",
+      "scenes": 883,
+      "footprint_coverage_percent": 93.82,
+      "known_size_gb_lower_bound": 242.7,
+      "scenes_with_size": 883,
+      "size_metadata_complete": true
+    }
+  ],
+  "generated_at": "2026-09-17T15:52:16.298468+00:00",
+  "ice_objects_processed": false,
+  "map_is_synoptic": false
+}

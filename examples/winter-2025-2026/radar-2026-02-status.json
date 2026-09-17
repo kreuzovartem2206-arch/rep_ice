@@ -1,0 +1,1516 @@
+{
+  "month": "2026-02",
+  "pixel_m": 2000,
+  "status": "visual_overview_only",
+  "planning": {
+    "planning_points": 9986,
+    "uncovered_planning_points": 467,
+    "limit": 100
+  },
+  "selected_scenes": 100,
+  "processed": [
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260203T201229_20260203T201333_006196_00C70C",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/3/EW/DH/S1C_EW_GRDM_1SDH_20260203T201229_20260203T201333_006196_00C70C_8991/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1702616214752197,
+        2.663700819015503
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-03T20:12:29.158179Z",
+      "scene_index": 1,
+      "valid_pixels": 38423
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260204T232437_20260204T232546_063076_07EA85",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/4/EW/DH/S1A_EW_GRDM_1SDH_20260204T232437_20260204T232546_063076_07EA85_0431/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.15836238861084,
+        2.6972293853759766
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-04T23:24:37.113862Z",
+      "scene_index": 2,
+      "valid_pixels": 35999
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260207T220931_20260207T221022_063119_07EC27",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/7/EW/DH/S1A_EW_GRDM_1SDH_20260207T220931_20260207T221022_063119_07EC27_0C69/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1038036346435547,
+        2.6541764736175537
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-07T22:09:31.445376Z",
+      "scene_index": 3,
+      "valid_pixels": 32721
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260210T205527_20260210T205631_063162_07EDB5",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/10/EW/DH/S1A_EW_GRDM_1SDH_20260210T205527_20260210T205631_063162_07EDB5_B86F/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.0606977939605713,
+        2.714329719543457
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-10T20:55:27.089503Z",
+      "scene_index": 4,
+      "valid_pixels": 42446
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260210T205631_20260210T205743_063162_07EDB5",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/10/EW/DH/S1A_EW_GRDM_1SDH_20260210T205631_20260210T205743_063162_07EDB5_A04E/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.064457893371582,
+        2.6599161624908447
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-10T20:56:31.392958Z",
+      "scene_index": 5,
+      "valid_pixels": 46177
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260213T013512_20260213T013616_063194_07EEE9",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/13/EW/DH/S1A_EW_GRDM_1SDH_20260213T013512_20260213T013616_063194_07EEE9_C00E/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.096909999847412,
+        3.0663259029388428
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-13T01:35:12.462346Z",
+      "scene_index": 6,
+      "valid_pixels": 36325
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260215T020356_20260215T020501_006360_00CCAF",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/15/EW/DH/S1C_EW_GRDM_1SDH_20260215T020356_20260215T020501_006360_00CCAF_813E/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.15836238861084,
+        2.7331972122192383
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-15T02:03:56.637688Z",
+      "scene_index": 7,
+      "valid_pixels": 36565
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260215T020501_20260215T020601_006360_00CCAF",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/15/EW/DH/S1C_EW_GRDM_1SDH_20260215T020501_20260215T020601_006360_00CCAF_1AA6/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.2068259716033936,
+        2.6776070594787598
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-15T02:05:01.311351Z",
+      "scene_index": 8,
+      "valid_pixels": 37640
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260215T020801_20260215T020912_006360_00CCAF",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/15/EW/DH/S1C_EW_GRDM_1SDH_20260215T020801_20260215T020912_006360_00CCAF_7DD2/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.0569047927856445,
+        2.764923095703125
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-15T02:08:01.310199Z",
+      "scene_index": 9,
+      "valid_pixels": 46482
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260215T210341_20260215T210432_063235_07F077",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/15/EW/DH/S1A_EW_GRDM_1SDH_20260215T210341_20260215T210432_063235_07F077_A897/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.064457893371582,
+        2.7250945568084717
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-15T21:03:41.291326Z",
+      "scene_index": 10,
+      "valid_pixels": 32703
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260215T224226_20260215T224330_063236_07F080",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/15/EW/DH/S1A_EW_GRDM_1SDH_20260215T224226_20260215T224330_063236_07F080_27AD/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.0827853679656982,
+        2.663700819015503
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-15T22:42:26.107213Z",
+      "scene_index": 11,
+      "valid_pixels": 42492
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260215T224330_20260215T224442_063236_07F080",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/15/EW/DH/S1A_EW_GRDM_1SDH_20260215T224330_20260215T224442_063236_07F080_EDEC/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.086359739303589,
+        2.7101173400878906
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-15T22:43:30.413042Z",
+      "scene_index": 12,
+      "valid_pixels": 47101
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260216T002107_20260216T002140_063237_07F088",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/16/EW/DH/S1A_EW_GRDM_1SDH_20260216T002107_20260216T002140_063237_07F088_1B3A/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.096909999847412,
+        2.635483741760254
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-16T00:21:07.892832Z",
+      "scene_index": 13,
+      "valid_pixels": 20232
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260216T060345_20260216T060450_006377_00CD43",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/16/EW/DH/S1C_EW_GRDM_1SDH_20260216T060345_20260216T060450_006377_00CD43_6B99/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1238515377044678,
+        2.6693167686462402
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-16T06:03:45.612286Z",
+      "scene_index": 14,
+      "valid_pixels": 39318
+    },
+    {
+      "source_id": "S1C_IW_GRDH_1SDV_20260216T223516_20260216T223546_006387_00CD9E",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/16/IW/DV/S1C_IW_GRDH_1SDV_20260216T223516_20260216T223546_006387_00CD9E_3620/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        1.4771212339401245,
+        2.271841526031494
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-16T22:35:16.783862Z",
+      "scene_index": 15,
+      "valid_pixels": 7746
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260217T010321_20260217T010421_063252_07F119",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/17/EW/DH/S1A_EW_GRDM_1SDH_20260217T010321_20260217T010421_063252_07F119_B362/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.086359739303589,
+        2.8887410163879395
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-17T01:03:21.373032Z",
+      "scene_index": 16,
+      "valid_pixels": 25224
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260217T024306_20260217T024406_063253_07F122",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/17/EW/DH/S1A_EW_GRDM_1SDH_20260217T024306_20260217T024406_063253_07F122_C946/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.130333662033081,
+        2.742725133895874
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-17T02:43:06.231143Z",
+      "scene_index": 17,
+      "valid_pixels": 39377
+    },
+    {
+      "source_id": "S1C_IW_GRDH_1SDV_20260217T045820_20260217T045856_006391_00CDC1",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/17/IW/DV/S1C_IW_GRDH_1SDV_20260217T045820_20260217T045856_006391_00CDC1_CC8A/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        1.778151273727417,
+        2.346353054046631
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-17T04:58:20.994255Z",
+      "scene_index": 18,
+      "valid_pixels": 4273
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260217T182224_20260217T182324_006399_00CE0E",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/17/EW/DH/S1C_EW_GRDM_1SDH_20260217T182224_20260217T182324_006399_00CE0E_6114/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1986570358276367,
+        2.913813829421997
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-17T18:22:24.121139Z",
+      "scene_index": 19,
+      "valid_pixels": 18467
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260217T204711_20260217T204816_063264_07F18D",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/17/EW/DH/S1A_EW_GRDM_1SDH_20260217T204711_20260217T204816_063264_07F18D_CD34/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.07918119430542,
+        2.7058637142181396
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-17T20:47:11.922041Z",
+      "scene_index": 20,
+      "valid_pixels": 42450
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260217T204916_20260217T205016_063264_07F18D",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/17/EW/DH/S1A_EW_GRDM_1SDH_20260217T204916_20260217T205016_063264_07F18D_5134/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        1.9344984292984009,
+        2.7168376445770264
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-17T20:49:16.224219Z",
+      "scene_index": 21,
+      "valid_pixels": 31397
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260218T005031_20260218T005141_006403_00CE36",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/18/EW/DH/S1C_EW_GRDM_1SDH_20260218T005031_20260218T005141_006403_00CE36_C054/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.193124532699585,
+        2.731588840484619
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-18T00:50:31.574558Z",
+      "scene_index": 22,
+      "valid_pixels": 39760
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260218T032211_20260218T032315_063268_07F1B6",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/18/EW/DH/S1A_EW_GRDM_1SDH_20260218T032211_20260218T032315_063268_07F1B6_10A4/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1038036346435547,
+        2.949389934539795
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-18T03:22:11.283600Z",
+      "scene_index": 23,
+      "valid_pixels": 40115
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260218T072509_20260218T072542_006407_00CE52",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/18/EW/DH/S1C_EW_GRDM_1SDH_20260218T072509_20260218T072542_006407_00CE52_0839/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.225309371948242,
+        2.68304705619812
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-18T07:25:09.641619Z",
+      "scene_index": 24,
+      "valid_pixels": 20125
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260218T181256_20260218T181356_063277_07F20A",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/18/EW/DH/S1A_EW_GRDM_1SDH_20260218T181256_20260218T181356_063277_07F20A_6D99/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1172711849212646,
+        2.7092700004577637
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-18T18:12:56.129743Z",
+      "scene_index": 25,
+      "valid_pixels": 23585
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260218T181356_20260218T181456_063277_07F20A",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/18/EW/DH/S1A_EW_GRDM_1SDH_20260218T181356_20260218T181456_063277_07F20A_6433/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1553361415863037,
+        2.853698253631592
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-18T18:13:56.125796Z",
+      "scene_index": 26,
+      "valid_pixels": 34058
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260218T181456_20260218T181607_063277_07F20A",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/18/EW/DH/S1A_EW_GRDM_1SDH_20260218T181456_20260218T181607_063277_07F20A_AF97/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.15836238861084,
+        2.892094612121582
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-18T18:14:56.127854Z",
+      "scene_index": 27,
+      "valid_pixels": 23123
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260219T194148_20260219T194248_006429_00CF16",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/19/EW/DH/S1C_EW_GRDM_1SDH_20260219T194148_20260219T194248_006429_00CF16_1850/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.07918119430542,
+        2.6364879608154297
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-19T19:41:48.313889Z",
+      "scene_index": 28,
+      "valid_pixels": 40827
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260219T194248_20260219T194348_006429_00CF16",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/19/EW/DH/S1C_EW_GRDM_1SDH_20260219T194248_20260219T194348_006429_00CF16_C1B4/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        1.9084850549697876,
+        2.6739420890808105
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-19T19:42:48.310790Z",
+      "scene_index": 29,
+      "valid_pixels": 39913
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260220T013001_20260220T013101_063296_07F2BE",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/20/EW/DH/S1A_EW_GRDM_1SDH_20260220T013001_20260220T013101_063296_07F2BE_7636/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.2988531589508057,
+        2.818225860595703
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-20T01:30:01.816014Z",
+      "scene_index": 30,
+      "valid_pixels": 5399
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260220T035549_20260220T035657_006434_00CF44",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/20/EW/DH/S1C_EW_GRDM_1SDH_20260220T035549_20260220T035657_006434_00CF44_A689/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        1.913813829421997,
+        3.035829782485962
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-20T03:55:49.945183Z",
+      "scene_index": 31,
+      "valid_pixels": 44943
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260220T044531_20260220T044631_063298_07F2D4",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/20/EW/DH/S1A_EW_GRDM_1SDH_20260220T044531_20260220T044631_063298_07F2D4_3CA6/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1335389614105225,
+        3.200850486755371
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-20T04:45:31.501688Z",
+      "scene_index": 32,
+      "valid_pixels": 38900
+    },
+    {
+      "source_id": "S1A_IW_GRDH_1SDV_20260220T044636_20260220T044705_063298_07F2D5",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/20/IW/DV/S1A_IW_GRDH_1SDV_20260220T044636_20260220T044705_063298_07F2D5_7EF6/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        1.8976271152496338,
+        2.3783979415893555
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-20T04:46:36.093451Z",
+      "scene_index": 33,
+      "valid_pixels": 9864
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260220T084636_20260220T084743_006437_00CF5D",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/20/EW/DH/S1C_EW_GRDM_1SDH_20260220T084636_20260220T084743_006437_00CF5D_948F/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.143014907836914,
+        2.671172857284546
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-20T08:46:36.872736Z",
+      "scene_index": 34,
+      "valid_pixels": 39602
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260220T184455_20260220T184601_006443_00CFA3",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/20/EW/DH/S1C_EW_GRDM_1SDH_20260220T184455_20260220T184601_006443_00CFA3_9B3D/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.07918119430542,
+        2.6739420890808105
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-20T18:44:55.490299Z",
+      "scene_index": 35,
+      "valid_pixels": 42691
+    },
+    {
+      "source_id": "S1A_IW_GRDH_1SDV_20260220T211348_20260220T211413_063308_07F33E",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/20/IW/DV/S1A_IW_GRDH_1SDV_20260220T211348_20260220T211413_063308_07F33E_712E/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        1.5682017803192139,
+        2.089905023574829
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-20T21:13:48.656841Z",
+      "scene_index": 36,
+      "valid_pixels": 9374
+    },
+    {
+      "source_id": "S1A_IW_GRDH_1SDV_20260220T211413_20260220T211438_063308_07F33E",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/20/IW/DV/S1A_IW_GRDH_1SDV_20260220T211413_20260220T211438_063308_07F33E_2342/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        1.556302547454834,
+        2.195899724960327
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-20T21:14:13.656376Z",
+      "scene_index": 37,
+      "valid_pixels": 6080
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260221T052536_20260221T052640_063313_07F368",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/21/EW/DH/S1A_EW_GRDM_1SDH_20260221T052536_20260221T052640_063313_07F368_5A47/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        1.9637877941131592,
+        2.9513375759124756
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-21T05:25:36.629045Z",
+      "scene_index": 38,
+      "valid_pixels": 30870
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260221T215301_20260221T215406_063323_07F3D4",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/21/EW/DH/S1A_EW_GRDM_1SDH_20260221T215301_20260221T215406_063323_07F3D4_FB5E/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.0827853679656982,
+        2.6683859825134277
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-21T21:53:01.965836Z",
+      "scene_index": 39,
+      "valid_pixels": 42464
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260221T215406_20260221T215506_063323_07F3D4",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/21/EW/DH/S1A_EW_GRDM_1SDH_20260221T215406_20260221T215506_063323_07F3D4_85C6/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.07918119430542,
+        2.7226338386535645
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-21T21:54:06.266487Z",
+      "scene_index": 40,
+      "valid_pixels": 34305
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260221T215506_20260221T215606_063323_07F3D4",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/21/EW/DH/S1A_EW_GRDM_1SDH_20260221T215506_20260221T215606_063323_07F3D4_FBBF/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        1.8808135986328125,
+        2.785329818725586
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-21T21:55:06.266852Z",
+      "scene_index": 41,
+      "valid_pixels": 30444
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260221T233146_20260221T233251_063324_07F3DC",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/21/EW/DH/S1A_EW_GRDM_1SDH_20260221T233146_20260221T233251_063324_07F3DC_8605/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.086359739303589,
+        2.6364879608154297
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-21T23:31:46.765239Z",
+      "scene_index": 42,
+      "valid_pixels": 42456
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260221T233351_20260221T233445_063324_07F3DC",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/21/EW/DH/S1A_EW_GRDM_1SDH_20260221T233351_20260221T233445_063324_07F3DC_0CF1/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.161367893218994,
+        2.793790340423584
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-21T23:33:51.068594Z",
+      "scene_index": 43,
+      "valid_pixels": 3700
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260222T011235_20260222T011336_063325_07F3E2",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/22/EW/DH/S1A_EW_GRDM_1SDH_20260222T011235_20260222T011336_063325_07F3E2_2A73/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.045322895050049,
+        2.846337080001831
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-22T01:12:35.938838Z",
+      "scene_index": 44,
+      "valid_pixels": 8092
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260222T033830_20260222T033930_006463_00D051",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/22/EW/DH/S1C_EW_GRDM_1SDH_20260222T033830_20260222T033930_006463_00D051_40F7/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.0211892127990723,
+        3.1277525424957275
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-22T03:38:30.177117Z",
+      "scene_index": 45,
+      "valid_pixels": 38006
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260222T034030_20260222T034130_006463_00D051",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/22/EW/DH/S1C_EW_GRDM_1SDH_20260222T034030_20260222T034130_006463_00D051_46C6/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.0086002349853516,
+        3.068927526473999
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-22T03:40:30.175328Z",
+      "scene_index": 46,
+      "valid_pixels": 38358
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260222T034130_20260222T034226_006463_00D051",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/22/EW/DH/S1C_EW_GRDM_1SDH_20260222T034130_20260222T034226_006463_00D051_CE27/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        1.929418921470642,
+        2.8842287063598633
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-22T03:41:30.177441Z",
+      "scene_index": 47,
+      "valid_pixels": 13188
+    },
+    {
+      "source_id": "S1C_IW_GRDH_1SDV_20260222T214634_20260222T214710_006474_00D0AF",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/22/IW/DV/S1C_IW_GRDH_1SDV_20260222T214634_20260222T214710_006474_00D0AF_4677/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        1.3979400396347046,
+        2.2988531589508057
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-22T21:46:34.995212Z",
+      "scene_index": 48,
+      "valid_pixels": 4288
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260223T015345_20260223T015445_063340_07F471",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/23/EW/DH/S1A_EW_GRDM_1SDH_20260223T015345_20260223T015445_063340_07F471_D74E/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.075546979904175,
+        2.8312296867370605
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-23T01:53:45.419194Z",
+      "scene_index": 49,
+      "valid_pixels": 21271
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260223T024115_20260223T024215_006477_00D0C6",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/23/EW/DH/S1C_EW_GRDM_1SDH_20260223T024115_20260223T024215_006477_00D0C6_634D/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        1.9777235984802246,
+        2.878521680831909
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-23T02:41:15.898175Z",
+      "scene_index": 50,
+      "valid_pixels": 33203
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260223T122740_20260223T122840_006483_00D101",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/23/EW/DH/S1C_EW_GRDM_1SDH_20260223T122740_20260223T122840_006483_00D101_F12F/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.086359739303589,
+        3.0111472606658936
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-23T12:27:40.334082Z",
+      "scene_index": 51,
+      "valid_pixels": 35254
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260223T122840_20260223T122950_006483_00D101",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/23/EW/DH/S1C_EW_GRDM_1SDH_20260223T122840_20260223T122950_006483_00D101_93C5/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.093421697616577,
+        2.786041259765625
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-23T12:28:40.335084Z",
+      "scene_index": 52,
+      "valid_pixels": 32135
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260223T190629_20260223T190729_006487_00D120",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/23/EW/DH/S1C_EW_GRDM_1SDH_20260223T190629_20260223T190729_006487_00D120_0B67/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.161367893218994,
+        2.681241273880005
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-23T19:06:29.808676Z",
+      "scene_index": 53,
+      "valid_pixels": 7027
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260223T195907_20260223T200007_063351_07F4DF",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/23/EW/DH/S1A_EW_GRDM_1SDH_20260223T195907_20260223T200007_063351_07F4DF_2A72/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1205739974975586,
+        2.634477376937866
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-23T19:59:07.707693Z",
+      "scene_index": 54,
+      "valid_pixels": 40708
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260224T014032_20260224T014132_006491_00D143",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/24/EW/DH/S1C_EW_GRDM_1SDH_20260224T014032_20260224T014132_006491_00D143_B11F/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.187520742416382,
+        2.6794278621673584
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-24T01:40:32.905368Z",
+      "scene_index": 55,
+      "valid_pixels": 36935
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260224T014132_20260224T014232_006491_00D143",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/24/EW/DH/S1C_EW_GRDM_1SDH_20260224T014132_20260224T014232_006491_00D143_FBDE/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.0718820095062256,
+        2.698970079421997
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-24T01:41:32.904444Z",
+      "scene_index": 56,
+      "valid_pixels": 37146
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260224T014332_20260224T014432_006491_00D143",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/24/EW/DH/S1C_EW_GRDM_1SDH_20260224T014332_20260224T014432_006491_00D143_F692/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.096909999847412,
+        2.7355988025665283
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-24T01:43:32.902597Z",
+      "scene_index": 57,
+      "valid_pixels": 40102
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260224T041336_20260224T041436_063356_07F510",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/24/EW/DH/S1A_EW_GRDM_1SDH_20260224T041336_20260224T041436_063356_07F510_7E22/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        1.875061273574829,
+        3.2294259071350098
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-24T04:13:36.695912Z",
+      "scene_index": 58,
+      "valid_pixels": 41095
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260224T041436_20260224T041536_063356_07F510",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/24/EW/DH/S1A_EW_GRDM_1SDH_20260224T041436_20260224T041536_063356_07F510_DBF0/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        1.929418921470642,
+        3.145817756652832
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-24T04:14:36.696859Z",
+      "scene_index": 59,
+      "valid_pixels": 23948
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260224T041536_20260224T041623_063356_07F510",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/24/EW/DH/S1A_EW_GRDM_1SDH_20260224T041536_20260224T041623_063356_07F510_0B5E/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.146127939224243,
+        2.8836615085601807
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-24T04:15:36.697846Z",
+      "scene_index": 60,
+      "valid_pixels": 10277
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260224T113056_20260224T113202_006497_00D17B",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/24/EW/DH/S1C_EW_GRDM_1SDH_20260224T113056_20260224T113202_006497_00D17B_D821/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.07918119430542,
+        2.860337972640991
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-24T11:30:56.530675Z",
+      "scene_index": 61,
+      "valid_pixels": 40689
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260224T190147_20260224T190247_063365_07F573",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/24/EW/DH/S1A_EW_GRDM_1SDH_20260224T190147_20260224T190247_063365_07F573_9EE7/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1072099208831787,
+        2.6693167686462402
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-24T19:01:47.531513Z",
+      "scene_index": 62,
+      "valid_pixels": 40834
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260224T190247_20260224T190347_063365_07F573",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/24/EW/DH/S1A_EW_GRDM_1SDH_20260224T190247_20260224T190347_063365_07F573_3946/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1271047592163086,
+        2.893206834793091
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-24T19:02:47.531695Z",
+      "scene_index": 63,
+      "valid_pixels": 32087
+    },
+    {
+      "source_id": "S1C_IW_GRDH_1SDV_20260225T022644_20260225T022713_006506_00D1C4",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/25/IW/DV/S1C_IW_GRDH_1SDV_20260225T022644_20260225T022713_006506_00D1C4_BA9E/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        1.6127839088439941,
+        2.1643528938293457
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-25T02:26:44.228094Z",
+      "scene_index": 64,
+      "valid_pixels": 7603
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260225T045241_20260225T045346_063371_07F5A5",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/25/EW/DH/S1A_EW_GRDM_1SDH_20260225T045241_20260225T045346_063371_07F5A5_ED16/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.21484375,
+        3.0986437797546387
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-25T04:52:41.816529Z",
+      "scene_index": 65,
+      "valid_pixels": 41389
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260225T085442_20260225T085551_006510_00D1E6",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/25/EW/DH/S1C_EW_GRDM_1SDH_20260225T085442_20260225T085551_006510_00D1E6_0697/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.130333662033081,
+        2.823474168777466
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-25T08:54:42.261779Z",
+      "scene_index": 66,
+      "valid_pixels": 41515
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260225T121226_20260225T121318_006512_00D1FD",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/25/EW/DH/S1C_EW_GRDM_1SDH_20260225T121226_20260225T121318_006512_00D1FD_B509/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.089905023574829,
+        2.806180000305176
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-25T12:12:26.569812Z",
+      "scene_index": 67,
+      "valid_pixels": 27921
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260225T180641_20260225T180753_063379_07F5F9",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/25/EW/DH/S1A_EW_GRDM_1SDH_20260225T180641_20260225T180753_063379_07F5F9_5A7B/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1522884368896484,
+        2.863917350769043
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-25T18:06:41.819229Z",
+      "scene_index": 68,
+      "valid_pixels": 24754
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260225T185106_20260225T185206_006516_00D21A",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/25/EW/DH/S1C_EW_GRDM_1SDH_20260225T185106_20260225T185206_006516_00D21A_8774/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1172711849212646,
+        2.6042261123657227
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-25T18:51:06.973455Z",
+      "scene_index": 69,
+      "valid_pixels": 21849
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260225T185206_20260225T185306_006516_00D21A",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/25/EW/DH/S1C_EW_GRDM_1SDH_20260225T185206_20260225T185306_006516_00D21A_6289/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.064457893371582,
+        2.6794278621673584
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-25T18:52:06.972923Z",
+      "scene_index": 70,
+      "valid_pixels": 38646
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260225T194444_20260225T194521_063380_07F602",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/25/EW/DH/S1A_EW_GRDM_1SDH_20260225T194444_20260225T194521_063380_07F602_8C29/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.0,
+        2.941511392593384
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-25T19:44:44.809616Z",
+      "scene_index": 71,
+      "valid_pixels": 2489
+    },
+    {
+      "source_id": "S1C_IW_GRDH_1SDV_20260225T234808_20260225T234837_006519_00D234",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/25/IW/DV/S1C_IW_GRDH_1SDV_20260225T234808_20260225T234837_006519_00D234_87A5/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        1.57978355884552,
+        2.2329962253570557
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-25T23:48:08.306273Z",
+      "scene_index": 72,
+      "valid_pixels": 11254
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260226T003736_20260226T003841_063383_07F61C",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/26/EW/DH/S1A_EW_GRDM_1SDH_20260226T003736_20260226T003841_063383_07F61C_7C59/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1038036346435547,
+        2.9132838249206543
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-26T00:37:36.739264Z",
+      "scene_index": 73,
+      "valid_pixels": 34823
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260226T003841_20260226T003940_063383_07F61C",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/26/EW/DH/S1A_EW_GRDM_1SDH_20260226T003841_20260226T003940_063383_07F61C_7027/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.0128371715545654,
+        2.9576072692871094
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-26T00:38:41.040235Z",
+      "scene_index": 74,
+      "valid_pixels": 14104
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260226T030647_20260226T030747_006521_00D23E",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/26/EW/DH/S1C_EW_GRDM_1SDH_20260226T030647_20260226T030747_006521_00D23E_88A1/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        1.9190781116485596,
+        2.7435097694396973
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-26T03:06:47.335313Z",
+      "scene_index": 75,
+      "valid_pixels": 30424
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260226T035910_20260226T040003_063385_07F62D",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/26/EW/DH/S1A_EW_GRDM_1SDH_20260226T035910_20260226T040003_063385_07F62D_5C0E/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1038036346435547,
+        2.9090209007263184
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-26T03:59:10.759359Z",
+      "scene_index": 76,
+      "valid_pixels": 14187
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260226T111339_20260226T111439_006526_00D277",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/26/EW/DH/S1C_EW_GRDM_1SDH_20260226T111339_20260226T111439_006526_00D277_5831/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.049217939376831,
+        2.8790957927703857
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-26T11:13:39.755057Z",
+      "scene_index": 77,
+      "valid_pixels": 37963
+    },
+    {
+      "source_id": "S1A_IW_GRDH_1SDV_20260226T151946_20260226T152013_063392_07F677",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/26/IW/DV/S1A_IW_GRDH_1SDV_20260226T151946_20260226T152013_063392_07F677_AA4E/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        2.033423662185669,
+        2.383815288543701
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-26T15:19:46.926289Z",
+      "scene_index": 78,
+      "valid_pixels": 4468
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260226T202234_20260226T202339_063395_07F697",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/26/EW/DH/S1A_EW_GRDM_1SDH_20260226T202234_20260226T202339_063395_07F697_537F/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1038036346435547,
+        2.682145118713379
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-26T20:22:34.751979Z",
+      "scene_index": 79,
+      "valid_pixels": 42502
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260226T202439_20260226T202533_063395_07F697",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/26/EW/DH/S1A_EW_GRDM_1SDH_20260226T202439_20260226T202533_063395_07F697_4AFF/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.004321336746216,
+        2.6627578735351562
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-26T20:24:39.053389Z",
+      "scene_index": 80,
+      "valid_pixels": 35619
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260227T025835_20260227T025935_063399_07F6BD",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/27/EW/DH/S1A_EW_GRDM_1SDH_20260227T025835_20260227T025935_063399_07F6BD_509D/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        1.785329818725586,
+        3.009875535964966
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-27T02:58:35.376804Z",
+      "scene_index": 81,
+      "valid_pixels": 31961
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260227T030035_20260227T030136_063399_07F6BD",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/27/EW/DH/S1A_EW_GRDM_1SDH_20260227T030035_20260227T030136_063399_07F6BD_EA9D/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.0211892127990723,
+        2.803457021713257
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-27T03:00:35.375845Z",
+      "scene_index": 82,
+      "valid_pixels": 22843
+    },
+    {
+      "source_id": "S1A_IW_GRDH_1SDV_20260227T043857_20260227T043922_063400_07F6C7",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/27/IW/DV/S1A_IW_GRDH_1SDV_20260227T043857_20260227T043922_063400_07F6C7_F7A7/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        1.9956351518630981,
+        2.466867685317993
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-27T04:38:57.954867Z",
+      "scene_index": 83,
+      "valid_pixels": 9535
+    },
+    {
+      "source_id": "S1A_IW_GRDH_1SDV_20260227T043922_20260227T043947_063400_07F6C7",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/27/IW/DV/S1A_IW_GRDH_1SDV_20260227T043922_20260227T043947_063400_07F6C7_1720/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        1.857332468032837,
+        2.3765769004821777
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-27T04:39:22.954793Z",
+      "scene_index": 84,
+      "valid_pixels": 2855
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260227T115618_20260227T115646_006541_00D301",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/27/EW/DH/S1C_EW_GRDM_1SDH_20260227T115618_20260227T115646_006541_00D301_9C4C/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.093421697616577,
+        2.8135809898376465
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-27T11:56:18.843779Z",
+      "scene_index": 85,
+      "valid_pixels": 15736
+    },
+    {
+      "source_id": "S1C_IW_GRDH_1SDV_20260227T150744_20260227T150809_006543_00D310",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/27/IW/DV/S1C_IW_GRDH_1SDV_20260227T150744_20260227T150809_006543_00D310_D7CF/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        1.770851969718933,
+        2.290034532546997
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-27T15:07:44.055413Z",
+      "scene_index": 86,
+      "valid_pixels": 4391
+    },
+    {
+      "source_id": "S1C_IW_GRDH_1SDV_20260227T150949_20260227T151014_006543_00D310",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/27/IW/DV/S1C_IW_GRDH_1SDV_20260227T150949_20260227T151014_006543_00D310_1DE3/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        2.0413928031921387,
+        2.294466257095337
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-27T15:09:49.055854Z",
+      "scene_index": 87,
+      "valid_pixels": 10331
+    },
+    {
+      "source_id": "S1C_IW_GRDH_1SDV_20260227T151014_20260227T151046_006543_00D310",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/27/IW/DV/S1C_IW_GRDH_1SDV_20260227T151014_20260227T151046_006543_00D310_C79A/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        2.037426471710205,
+        2.3673558235168457
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-27T15:10:14.055942Z",
+      "scene_index": 88,
+      "valid_pixels": 10724
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260228T020256_20260228T020356_063413_07F743",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/28/EW/DH/S1A_EW_GRDM_1SDH_20260228T020256_20260228T020356_063413_07F743_8A10/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.068185806274414,
+        3.0666985511779785
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-28T02:02:56.864698Z",
+      "scene_index": 89,
+      "valid_pixels": 11701
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260228T020356_20260228T020456_063413_07F743",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/28/EW/DH/S1A_EW_GRDM_1SDH_20260228T020356_20260228T020456_063413_07F743_5094/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.3673558235168457,
+        2.857332468032837
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-28T02:03:56.863784Z",
+      "scene_index": 90,
+      "valid_pixels": 1737
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260228T060450_20260228T060550_006552_00D360",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/28/EW/DH/S1C_EW_GRDM_1SDH_20260228T060450_20260228T060550_006552_00D360_FB04/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.1038036346435547,
+        2.986771821975708
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-28T06:04:50.274433Z",
+      "scene_index": 91,
+      "valid_pixels": 27842
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260228T105618_20260228T105722_006555_00D381",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/28/EW/DH/S1C_EW_GRDM_1SDH_20260228T105618_20260228T105722_006555_00D381_F60D/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.037426471710205,
+        2.731588840484619
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-28T10:56:18.244079Z",
+      "scene_index": 92,
+      "valid_pixels": 42314
+    },
+    {
+      "source_id": "S1A_IW_GRDH_1SDH_20260228T150403_20260228T150432_063421_07F78A",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/28/IW/DH/S1A_IW_GRDH_1SDH_20260228T150403_20260228T150432_063421_07F78A_7369/measurement/iw-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        1.707570195198059,
+        2.238046169281006
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-28T15:04:03.685047Z",
+      "scene_index": 93,
+      "valid_pixels": 5591
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260228T182825_20260228T182925_063423_07F7A1",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/28/EW/DH/S1A_EW_GRDM_1SDH_20260228T182825_20260228T182925_063423_07F7A1_6568/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.130333662033081,
+        2.664641857147217
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-28T18:28:25.027591Z",
+      "scene_index": 94,
+      "valid_pixels": 23244
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260228T183025_20260228T183135_063423_07F7A1",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/28/EW/DH/S1A_EW_GRDM_1SDH_20260228T183025_20260228T183135_063423_07F7A1_E032/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.2068259716033936,
+        2.833784341812134
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-28T18:30:25.027052Z",
+      "scene_index": 95,
+      "valid_pixels": 29096
+    },
+    {
+      "source_id": "S1A_IW_GRDH_1SDV_20260228T183149_20260228T183218_063423_07F7A2",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/28/IW/DV/S1A_IW_GRDH_1SDV_20260228T183149_20260228T183218_063423_07F7A2_F28F/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        1.8388490676879883,
+        2.287801742553711
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-28T18:31:49.271972Z",
+      "scene_index": 96,
+      "valid_pixels": 6026
+    },
+    {
+      "source_id": "S1C_EW_GRDM_1SDH_20260228T191632_20260228T191732_006560_00D3A8",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/28/EW/DH/S1C_EW_GRDM_1SDH_20260228T191632_20260228T191732_006560_00D3A8_0D9C/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.0718820095062256,
+        2.6222140789031982
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-28T19:16:32.248951Z",
+      "scene_index": 97,
+      "valid_pixels": 40442
+    },
+    {
+      "source_id": "S1C_IW_GRDH_1SDV_20260228T191853_20260228T191922_006560_00D3A9",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/28/IW/DV/S1C_IW_GRDH_1SDV_20260228T191853_20260228T191922_006560_00D3A9_7190/measurement/iw-vv.tiff",
+      "polarization": "VV",
+      "log10_dn_percentiles": [
+        1.556302547454834,
+        2.3996737003326416
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-28T19:18:53.546783Z",
+      "scene_index": 98,
+      "valid_pixels": 6422
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260228T200614_20260228T200718_063424_07F7AD",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/28/EW/DH/S1A_EW_GRDM_1SDH_20260228T200614_20260228T200718_063424_07F7AD_107D/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.113943338394165,
+        2.681241273880005
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-28T20:06:14.605279Z",
+      "scene_index": 99,
+      "valid_pixels": 42649
+    },
+    {
+      "source_id": "S1A_EW_GRDM_1SDH_20260228T232332_20260228T232436_063426_07F7C7",
+      "href": "https://sentinel-s1-l1c.s3.eu-central-1.amazonaws.com/GRD/2026/2/28/EW/DH/S1A_EW_GRDM_1SDH_20260228T232332_20260228T232436_063426_07F7C7_6697/measurement/ew-hh.tiff",
+      "polarization": "HH",
+      "log10_dn_percentiles": [
+        2.093421697616577,
+        2.6414740085601807
+      ],
+      "source_level": "L1",
+      "classification": false,
+      "radiometrically_calibrated": false,
+      "datetime": "2026-02-28T23:23:32.073479Z",
+      "scene_index": 100,
+      "valid_pixels": 42457
+    }
+  ],
+  "failed": [],
+  "notice": "Per-scene stretched uncalibrated L1 amplitude; not ice extent, not 30 m detections, not a simultaneous observation.",
+  "valid_ocean_fraction": 0.9426201509130778
+}

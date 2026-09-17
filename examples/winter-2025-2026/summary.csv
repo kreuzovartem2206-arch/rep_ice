@@ -1,0 +1,10 @@
+﻿month,mode,scenes,footprint_coverage_percent,known_size_gb_lower_bound,scenes_with_size,size_metadata_complete
+2025-12,ALL,1994,97.32,1.06,1,False
+2025-12,IW,788,31.24,1.06,1,False
+2025-12,EW,1206,96.06,0.0,0,False
+2026-01,ALL,1779,97.31,134.23,221,False
+2026-01,IW,769,33.1,99.86,94,False
+2026-01,EW,1010,96.05,34.37,127,False
+2026-02,ALL,1537,95.36,952.99,1537,True
+2026-02,IW,654,30.06,710.29,654,True
+2026-02,EW,883,93.82,242.7,883,True

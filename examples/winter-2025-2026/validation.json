@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "month": "2025-12",
+      "valid_pixels": 1509896,
+      "nodata_and_dates_consistent": true,
+      "outside_ocean_pixels": 0,
+      "source_scenes": 100
+    },
+    {
+      "month": "2026-01",
+      "valid_pixels": 1507554,
+      "nodata_and_dates_consistent": true,
+      "outside_ocean_pixels": 0,
+      "source_scenes": 100
+    },
+    {
+      "month": "2026-02",
+      "valid_pixels": 1473583,
+      "nodata_and_dates_consistent": true,
+      "outside_ocean_pixels": 0,
+      "source_scenes": 100
+    }
+  ],
+  "geojson_antimeridian_valid": true,
+  "limits": "Internal consistency only; classification, geometric accuracy and detection completeness have not been validated."
+}

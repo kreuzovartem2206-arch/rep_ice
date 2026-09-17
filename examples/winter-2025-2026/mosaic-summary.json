@@ -1,0 +1,26 @@
+[
+  {
+    "month": "2025-12",
+    "processed_scenes": 100,
+    "valid_mosaic_percent": 96.58,
+    "failed_scenes": 0,
+    "first_date": "2025-12-06T00:21:13.624683Z",
+    "last_date": "2025-12-31T23:13:35.772244Z"
+  },
+  {
+    "month": "2026-01",
+    "processed_scenes": 100,
+    "valid_mosaic_percent": 96.44,
+    "failed_scenes": 0,
+    "first_date": "2026-01-03T18:44:57.164151Z",
+    "last_date": "2026-01-31T19:49:00.479974Z"
+  },
+  {
+    "month": "2026-02",
+    "processed_scenes": 100,
+    "valid_mosaic_percent": 94.26,
+    "failed_scenes": 0,
+    "first_date": "2026-02-03T20:12:29.158179Z",
+    "last_date": "2026-02-28T23:23:32.073479Z"
+  }
+]

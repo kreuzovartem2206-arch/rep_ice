@@ -75,3 +75,14 @@ def test_sar_db_input_is_rejected(config, tmp_path):
         dst.write(np.full((20, 20), -20, dtype='float32'), 1)
     with pytest.raises(ValueError, match='linear'):
         process_sar(path, config, affine, np.ones((20, 20), bool), 'IW', 'HH')
+
+
+def test_positive_visual_dn_cannot_enter_sigma0_detector(config, tmp_path):
+    affine = Affine(2000, 0, 480000, 0, -2000, 8100000)
+    path = tmp_path / 'overview.tif'
+    with rasterio.open(path, 'w', driver='GTiff', width=20, height=20, count=1,
+                       dtype='uint8', transform=affine, crs=config['crs']) as dst:
+        dst.write(np.full((20, 20), 128, dtype='uint8'), 1)
+        dst.update_tags(product='uncalibrated_L1_visual_overview')
+    with pytest.raises(ValueError, match='Visual overview'):
+        process_sar(path, config, affine, np.ones((20, 20), bool), 'IW', 'HH')

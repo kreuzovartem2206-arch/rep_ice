@@ -107,6 +107,8 @@ def process_sar(path, config, affine, ocean, mode, pol, band=1):
     if mode not in ["IW", "EW"] or pol not in ["HH", "HV", "VV", "VH"]:
         raise ValueError("Specify known SAR acquisition mode and polarization")
     with rasterio.open(path) as src:
+        if src.tags().get("product") == "uncalibrated_L1_visual_overview":
+            raise ValueError("Visual overview is not calibrated linear sigma0")
         if not src.crs:
             raise ValueError("SAR input must be geocoded")
         with WarpedVRT(src, crs=config["crs"], transform=affine,

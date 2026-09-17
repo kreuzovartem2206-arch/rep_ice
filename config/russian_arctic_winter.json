@@ -1,0 +1,12 @@
+{
+  "name": "russian_arctic_winter_2025_2026",
+  "start": "2025-12-01T00:00:00Z",
+  "end_exclusive": "2026-03-01T00:00:00Z",
+  "crs": "EPSG:3576",
+  "query_bboxes": [[28.0, 63.5, 180.0, 89.99], [-180.0, 63.5, -169.0, 89.99]],
+  "analysis_cell_m": 100000,
+  "overview_pixel_m": 2000,
+  "max_items_per_query": 20000,
+  "scope_note": "Analytical maritime envelope adjacent to Russia, including the Arctic basin; not a legal boundary or EEZ. Land is removed using Natural Earth 1:50m, suitable only for overview coverage.",
+  "months": [["2025-12", "2025-12-01T00:00:00Z", "2026-01-01T00:00:00Z"], ["2026-01", "2026-01-01T00:00:00Z", "2026-02-01T00:00:00Z"], ["2026-02", "2026-02-01T00:00:00Z", "2026-03-01T00:00:00Z"]]
+}
