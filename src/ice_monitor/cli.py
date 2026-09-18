@@ -42,6 +42,7 @@ def configuration(path):
     ocean = unary_union([shape(f["geometry"]) for f in obj["features"]]).intersection(box(*config["bbox"]))
     if ocean.is_empty or not ocean.is_valid:
         raise ValueError("Ocean AOI is empty or invalid")
+    config["processing_revision"] = "c1-reflectance-2026-09-18"
     config["fingerprint"] = hashlib.sha256((json.dumps(config, sort_keys=True) + ocean.wkt).encode()).hexdigest()
     return config, ocean
 

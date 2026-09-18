@@ -6,7 +6,21 @@ import pytest
 import rasterio
 from affine import Affine
 
-from ice_monitor.processing import optical_mask, read_asset, vectorize, process_sar
+from ice_monitor.processing import optical_mask, read_asset, vectorize, process_sar, process_s2
+
+
+def test_negative_reflectance_does_not_make_ndsi_above_one_ice(config):
+    green=np.full((30,30),.2);swir=np.full((30,30),-.06)
+    ice,valid=optical_mask(green,swir,np.full((30,30),11),np.ones((30,30),bool),config)
+    assert not valid.any() and not ice.any()
+
+
+def test_conflicting_legacy_offset_is_rejected_before_read(config):
+    asset={'raster:bands':[{'scale':.0001,'offset':-.1}]}
+    item={'collection':'sentinel-2-l2a','properties':{'earthsearch:boa_offset_applied':True},
+          'assets':{'green':asset,'swir16':asset}}
+    with pytest.raises(ValueError,match='Conflicting legacy BOA'):
+        process_s2(item,config,Affine.identity(),np.ones((30,30),bool))
 
 
 @pytest.fixture

@@ -1,0 +1,1470 @@
+{
+  "status": "sample_areas_not_full_arctic",
+  "regions": [
+    {
+      "id": "barents",
+      "center": [
+        51.98040056348653,
+        71.01068783456827
+      ],
+      "projected_center": [
+        -1299945.7188699984,
+        -1662681.9851423455
+      ],
+      "size_m": 10000,
+      "crs": "EPSG:3576",
+      "repeat_scene_count": 4,
+      "scenes": [
+        {
+          "properties": {
+            "sar:instrument_mode": "IW",
+            "processing:level": "L1",
+            "sat:absolute_orbit": 5398,
+            "datetime": "2025-12-11T02:59:34.897388Z",
+            "platform": "sentinel-1c",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ]
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  57.391266,
+                  69.107353
+                ],
+                [
+                  51.023979,
+                  69.618462
+                ],
+                [
+                  51.956833,
+                  71.353477
+                ],
+                [
+                  58.857563,
+                  70.812416
+                ],
+                [
+                  57.391266,
+                  69.107353
+                ]
+              ]
+            ]
+          },
+          "id": "S1C_IW_GRDH_1SDV_20251211T025934_20251211T030004_005398_00ABD9_184D_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20251211T025934_20251211T030004_005398_00ABD9_184D_COG"
+            }
+          ]
+        },
+        {
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  57.38887,
+                  69.107635
+                ],
+                [
+                  51.02169,
+                  69.618599
+                ],
+                [
+                  51.954063,
+                  71.353271
+                ],
+                [
+                  58.854584,
+                  70.81237
+                ],
+                [
+                  57.38887,
+                  69.107635
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "processing:level": "L1",
+            "sar:instrument_mode": "IW",
+            "platform": "sentinel-1c",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ],
+            "sat:absolute_orbit": 5573,
+            "datetime": "2025-12-23T02:59:34.102819Z"
+          },
+          "id": "S1C_IW_GRDH_1SDV_20251223T025934_20251223T030003_005573_00B1D5_A411_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20251223T025934_20251223T030003_005573_00B1D5_A411_COG"
+            }
+          ]
+        },
+        {
+          "properties": {
+            "sat:absolute_orbit": 5748,
+            "platform": "sentinel-1c",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ],
+            "sar:instrument_mode": "IW",
+            "datetime": "2026-01-04T02:59:36.342202Z",
+            "processing:level": "L1"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  57.259613,
+                  68.946815
+                ],
+                [
+                  50.939018,
+                  69.455185
+                ],
+                [
+                  51.859066,
+                  71.18985
+                ],
+                [
+                  58.704697,
+                  70.652184
+                ],
+                [
+                  57.259613,
+                  68.946815
+                ]
+              ]
+            ]
+          },
+          "id": "S1C_IW_GRDH_1SDV_20260104T025936_20260104T030005_005748_00B7D9_9A96_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20260104T025936_20260104T030005_005748_00B7D9_9A96_COG"
+            }
+          ]
+        },
+        {
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  57.261715,
+                  68.94677
+                ],
+                [
+                  58.707195,
+                  70.65239
+                ],
+                [
+                  51.862091,
+                  71.190109
+                ],
+                [
+                  50.941673,
+                  69.455193
+                ],
+                [
+                  57.261715,
+                  68.94677
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "_private": {
+              "product_size": 1140616232
+            },
+            "sat:absolute_orbit": 6098,
+            "platform": "sentinel-1c",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ],
+            "datetime": "2026-01-28T02:59:35.486939Z",
+            "sar:instrument_mode": "IW",
+            "processing:level": "L1"
+          },
+          "id": "S1C_IW_GRDH_1SDV_20260128T025935_20260128T030004_006098_00C3B9_6D79_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20260128T025935_20260128T030004_006098_00C3B9_6D79_COG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kara",
+      "center": [
+        74.5,
+        73.49999999999999
+      ],
+      "projected_center": [
+        -490672.7542451895,
+        -1769308.7927310055
+      ],
+      "size_m": 10000,
+      "crs": "EPSG:3576",
+      "repeat_scene_count": 7,
+      "scenes": [
+        {
+          "properties": {
+            "sar:instrument_mode": "IW",
+            "processing:level": "L1",
+            "sat:absolute_orbit": 5339,
+            "datetime": "2025-12-07T01:53:00.392650Z",
+            "platform": "sentinel-1c",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ]
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  76.263168,
+                  71.704308
+                ],
+                [
+                  68.909065,
+                  72.274895
+                ],
+                [
+                  70.071091,
+                  74.00351
+                ],
+                [
+                  78.132065,
+                  73.389946
+                ],
+                [
+                  76.263168,
+                  71.704308
+                ]
+              ]
+            ]
+          },
+          "id": "S1C_IW_GRDH_1SDV_20251207T015300_20251207T015329_005339_00A9C9_0C70_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20251207T015300_20251207T015329_005339_00A9C9_0C70_COG"
+            }
+          ]
+        },
+        {
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  76.265244,
+                  71.704277
+                ],
+                [
+                  68.911186,
+                  72.27491
+                ],
+                [
+                  70.073433,
+                  74.003601
+                ],
+                [
+                  78.134384,
+                  73.389984
+                ],
+                [
+                  76.265244,
+                  71.704277
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "processing:level": "L1",
+            "sar:instrument_mode": "IW",
+            "platform": "sentinel-1c",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ],
+            "sat:absolute_orbit": 5689,
+            "datetime": "2025-12-31T01:52:59.127621Z"
+          },
+          "id": "S1C_IW_GRDH_1SDV_20251231T015259_20251231T015328_005689_00B5D1_0768_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20251231T015259_20251231T015328_005689_00B5D1_0768_COG"
+            }
+          ]
+        },
+        {
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  76.267334,
+                  71.704323
+                ],
+                [
+                  68.913559,
+                  72.274956
+                ],
+                [
+                  70.076065,
+                  74.003914
+                ],
+                [
+                  78.136826,
+                  73.390289
+                ],
+                [
+                  76.267334,
+                  71.704323
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "sat:absolute_orbit": 6039,
+            "platform": "sentinel-1c",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ],
+            "datetime": "2026-01-24T01:52:57.570751Z",
+            "sar:instrument_mode": "IW",
+            "processing:level": "L1"
+          },
+          "id": "S1C_IW_GRDH_1SDV_20260124T015257_20260124T015326_006039_00C1B6_6AB6_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20260124T015257_20260124T015326_006039_00C1B6_6AB6_COG"
+            }
+          ]
+        },
+        {
+          "properties": {
+            "platform": "sentinel-1c",
+            "processing:level": "L1",
+            "_private": {
+              "product_size": 1080710396
+            },
+            "sat:absolute_orbit": 6389,
+            "sar:instrument_mode": "IW",
+            "datetime": "2026-02-17T01:52:57.388263Z",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ]
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  76.260376,
+                  71.704742
+                ],
+                [
+                  78.129097,
+                  73.390495
+                ],
+                [
+                  70.069038,
+                  74.003853
+                ],
+                [
+                  68.907181,
+                  72.275139
+                ],
+                [
+                  76.260376,
+                  71.704742
+                ]
+              ]
+            ]
+          },
+          "id": "S1C_IW_GRDH_1SDV_20260217T015257_20260217T015326_006389_00CDAC_1869_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20260217T015257_20260217T015326_006389_00CDAC_1869_COG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laptev",
+      "center": [
+        129.4884979886543,
+        73.82605264947944
+      ],
+      "projected_center": [
+        1144704.268221846,
+        -1389205.424111311
+      ],
+      "size_m": 10000,
+      "crs": "EPSG:3576",
+      "repeat_scene_count": 7,
+      "scenes": [
+        {
+          "properties": {
+            "sar:instrument_mode": "IW",
+            "processing:level": "L1",
+            "sat:absolute_orbit": 5366,
+            "datetime": "2025-12-08T22:18:58.086385Z",
+            "platform": "sentinel-1c",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ]
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  130.136627,
+                  72.026154
+                ],
+                [
+                  122.594299,
+                  72.6101
+                ],
+                [
+                  123.793938,
+                  74.337708
+                ],
+                [
+                  132.074051,
+                  73.708328
+                ],
+                [
+                  130.136627,
+                  72.026154
+                ]
+              ]
+            ]
+          },
+          "id": "S1C_IW_GRDH_1SDV_20251208T221858_20251208T221927_005366_00AAC3_6804_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20251208T221858_20251208T221927_005366_00AAC3_6804_COG"
+            }
+          ]
+        },
+        {
+          "properties": {
+            "sat:absolute_orbit": 5716,
+            "platform": "sentinel-1c",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ],
+            "sar:instrument_mode": "IW",
+            "datetime": "2026-01-01T22:18:56.833236Z",
+            "processing:level": "L1"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  130.134216,
+                  72.026497
+                ],
+                [
+                  122.591949,
+                  72.610291
+                ],
+                [
+                  123.791595,
+                  74.338364
+                ],
+                [
+                  132.071899,
+                  73.709129
+                ],
+                [
+                  130.134216,
+                  72.026497
+                ]
+              ]
+            ]
+          },
+          "id": "S1C_IW_GRDH_1SDV_20260101T221856_20260101T221926_005716_00B6C0_9A69_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20260101T221856_20260101T221926_005716_00B6C0_9A69_COG"
+            }
+          ]
+        },
+        {
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  130.138489,
+                  72.026268
+                ],
+                [
+                  122.596703,
+                  72.610199
+                ],
+                [
+                  123.79686,
+                  74.338333
+                ],
+                [
+                  132.07663,
+                  73.708954
+                ],
+                [
+                  130.138489,
+                  72.026268
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "sat:absolute_orbit": 6066,
+            "platform": "sentinel-1c",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ],
+            "datetime": "2026-01-25T22:18:55.683415Z",
+            "sar:instrument_mode": "IW",
+            "processing:level": "L1"
+          },
+          "id": "S1C_IW_GRDH_1SDV_20260125T221855_20260125T221924_006066_00C2AA_C70E_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20260125T221855_20260125T221924_006066_00C2AA_C70E_COG"
+            }
+          ]
+        },
+        {
+          "properties": {
+            "platform": "sentinel-1c",
+            "processing:level": "L1",
+            "_private": {
+              "product_size": 1138376107
+            },
+            "sat:absolute_orbit": 6416,
+            "sar:instrument_mode": "IW",
+            "datetime": "2026-02-18T22:18:55.066991Z",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ]
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  130.133179,
+                  72.026649
+                ],
+                [
+                  132.070755,
+                  73.709297
+                ],
+                [
+                  123.791313,
+                  74.338432
+                ],
+                [
+                  122.591713,
+                  72.610359
+                ],
+                [
+                  130.133179,
+                  72.026649
+                ]
+              ]
+            ]
+          },
+          "id": "S1C_IW_GRDH_1SDV_20260218T221855_20260218T221924_006416_00CEAB_1C32_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20260218T221855_20260218T221924_006416_00CEAB_1C32_COG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "east_siberian",
+      "center": [
+        157.61089179049912,
+        71.70421865746141
+      ],
+      "projected_center": [
+        1880836.9747185947,
+        -774806.8086608895
+      ],
+      "size_m": 10000,
+      "crs": "EPSG:3576",
+      "repeat_scene_count": 7,
+      "scenes": [
+        {
+          "properties": {
+            "sar:instrument_mode": "IW",
+            "processing:level": "L1",
+            "sat:absolute_orbit": 5423,
+            "datetime": "2025-12-12T20:07:58.556333Z",
+            "platform": "sentinel-1c",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ]
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  160.683533,
+                  69.728615
+                ],
+                [
+                  154.219482,
+                  70.242027
+                ],
+                [
+                  155.203613,
+                  71.975372
+                ],
+                [
+                  162.2267,
+                  71.429955
+                ],
+                [
+                  160.683533,
+                  69.728615
+                ]
+              ]
+            ]
+          },
+          "id": "S1C_IW_GRDH_1SDV_20251212T200758_20251212T200827_005423_00ACB5_5777_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20251212T200758_20251212T200827_005423_00ACB5_5777_COG"
+            }
+          ]
+        },
+        {
+          "properties": {
+            "sat:absolute_orbit": 5773,
+            "platform": "sentinel-1c",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ],
+            "sar:instrument_mode": "IW",
+            "datetime": "2026-01-05T20:07:57.192636Z",
+            "processing:level": "L1"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  160.680588,
+                  69.72892
+                ],
+                [
+                  154.216629,
+                  70.242195
+                ],
+                [
+                  155.200546,
+                  71.975555
+                ],
+                [
+                  162.223526,
+                  71.430275
+                ],
+                [
+                  160.680588,
+                  69.72892
+                ]
+              ]
+            ]
+          },
+          "id": "S1C_IW_GRDH_1SDV_20260105T200757_20260105T200826_005773_00B8B5_71D3_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20260105T200757_20260105T200826_005773_00B8B5_71D3_COG"
+            }
+          ]
+        },
+        {
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  160.676636,
+                  69.729126
+                ],
+                [
+                  162.219421,
+                  71.430504
+                ],
+                [
+                  155.197159,
+                  71.975662
+                ],
+                [
+                  154.213364,
+                  70.242294
+                ],
+                [
+                  160.676636,
+                  69.729126
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "_private": {
+              "product_size": 1067705327
+            },
+            "sat:absolute_orbit": 6123,
+            "platform": "sentinel-1c",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ],
+            "datetime": "2026-01-29T20:07:56.999395Z",
+            "sar:instrument_mode": "IW",
+            "processing:level": "L1"
+          },
+          "id": "S1C_IW_GRDH_1SDV_20260129T200756_20260129T200826_006123_00C496_1E67_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20260129T200756_20260129T200826_006123_00C496_1E67_COG"
+            }
+          ]
+        },
+        {
+          "properties": {
+            "platform": "sentinel-1c",
+            "processing:level": "L1",
+            "_private": {
+              "product_size": 1081642063
+            },
+            "sat:absolute_orbit": 6473,
+            "sar:instrument_mode": "IW",
+            "datetime": "2026-02-22T20:07:55.736273Z",
+            "sar:polarizations": [
+              "VV",
+              "VH"
+            ]
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  160.682709,
+                  69.728897
+                ],
+                [
+                  162.225418,
+                  71.429901
+                ],
+                [
+                  155.203445,
+                  71.975197
+                ],
+                [
+                  154.219589,
+                  70.242195
+                ],
+                [
+                  160.682709,
+                  69.728897
+                ]
+              ]
+            ]
+          },
+          "id": "S1C_IW_GRDH_1SDV_20260222T200755_20260222T200825_006473_00D0A5_BFAC_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1C_IW_GRDH_1SDV_20260222T200755_20260222T200825_006473_00D0A5_BFAC_COG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chukchi",
+      "center": [
+        -176.45517581630543,
+        70.75570671259312
+      ],
+      "projected_center": [
+        2134500.341917209,
+        132227.8437564601
+      ],
+      "size_m": 10000,
+      "crs": "EPSG:3576",
+      "repeat_scene_count": 7,
+      "scenes": [
+        {
+          "properties": {
+            "sar:instrument_mode": "IW",
+            "processing:level": "L1",
+            "platform": "sentinel-1a",
+            "datetime": "2025-12-11T05:18:11.286774Z",
+            "sat:absolute_orbit": 62263,
+            "sar:polarizations": [
+              "HH",
+              "HV"
+            ]
+          },
+          "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    177.806107,
+                    70.034508
+                  ],
+                  [
+                    176.196671,
+                    71.764198
+                  ],
+                  [
+                    180,
+                    72.05800824646698
+                  ],
+                  [
+                    180,
+                    70.20786348160166
+                  ],
+                  [
+                    177.806107,
+                    70.034508
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    -176.710083,
+                    72.312157
+                  ],
+                  [
+                    -175.683685,
+                    70.548927
+                  ],
+                  [
+                    -180,
+                    70.20786348160166
+                  ],
+                  [
+                    -180,
+                    72.05800824646698
+                  ],
+                  [
+                    -176.710083,
+                    72.312157
+                  ]
+                ]
+              ]
+            ]
+          },
+          "id": "S1A_IW_GRDH_1SDH_20251211T051811_20251211T051841_062263_07CBA9_17FA_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1A_IW_GRDH_1SDH_20251211T051811_20251211T051841_062263_07CBA9_17FA_COG"
+            }
+          ]
+        },
+        {
+          "properties": {
+            "processing:level": "L1",
+            "datetime": "2026-01-04T05:18:08.735776Z",
+            "platform": "sentinel-1a",
+            "sar:polarizations": [
+              "HH",
+              "HV"
+            ],
+            "sar:instrument_mode": "IW",
+            "sat:absolute_orbit": 62613
+          },
+          "id": "S1A_IW_GRDH_1SDH_20260104T051808_20260104T051838_062613_07D93C_22DB_COG",
+          "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    177.81105,
+                    70.034378
+                  ],
+                  [
+                    176.202545,
+                    71.76368
+                  ],
+                  [
+                    180,
+                    72.0569287972458
+                  ],
+                  [
+                    180,
+                    70.20728005800221
+                  ],
+                  [
+                    177.81105,
+                    70.034378
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    -176.704285,
+                    72.311432
+                  ],
+                  [
+                    -175.67868,
+                    70.548615
+                  ],
+                  [
+                    -180,
+                    70.20728005800221
+                  ],
+                  [
+                    -180,
+                    72.0569287972458
+                  ],
+                  [
+                    -176.704285,
+                    72.311432
+                  ]
+                ]
+              ]
+            ]
+          },
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1A_IW_GRDH_1SDH_20260104T051808_20260104T051838_062613_07D93C_22DB_COG"
+            }
+          ]
+        },
+        {
+          "properties": {
+            "processing:level": "L1",
+            "datetime": "2026-01-28T05:18:07.051211Z",
+            "platform": "sentinel-1a",
+            "sar:polarizations": [
+              "HH",
+              "HV"
+            ],
+            "sar:instrument_mode": "IW",
+            "_private": {
+              "product_size": 1115876715
+            },
+            "sat:absolute_orbit": 62963
+          },
+          "id": "S1A_IW_GRDH_1SDH_20260128T051807_20260128T051836_062963_07E647_FA6C_COG",
+          "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    -179.9999999,
+                    72.05763809845028
+                  ],
+                  [
+                    -179.9999999,
+                    70.2076734515894
+                  ],
+                  [
+                    -175.684311,
+                    70.548698
+                  ],
+                  [
+                    -176.710632,
+                    72.31176
+                  ],
+                  [
+                    -179.9999999,
+                    72.05763809845028
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    179.9999999,
+                    72.05763809845028
+                  ],
+                  [
+                    176.196854,
+                    71.763824
+                  ],
+                  [
+                    177.806061,
+                    70.034309
+                  ],
+                  [
+                    179.9999999,
+                    70.2076734515894
+                  ],
+                  [
+                    179.9999999,
+                    72.05763809845028
+                  ]
+                ]
+              ]
+            ]
+          },
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1A_IW_GRDH_1SDH_20260128T051807_20260128T051836_062963_07E647_FA6C_COG"
+            }
+          ]
+        },
+        {
+          "properties": {
+            "sar:instrument_mode": "IW",
+            "processing:level": "L1",
+            "_private": {
+              "product_size": 1124268639
+            },
+            "platform": "sentinel-1a",
+            "datetime": "2026-02-21T05:18:05.636734Z",
+            "sat:absolute_orbit": 63313,
+            "sar:polarizations": [
+              "HH",
+              "HV"
+            ]
+          },
+          "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    -179.9999999,
+                    72.05762471783798
+                  ],
+                  [
+                    -179.9999999,
+                    70.20719426558986
+                  ],
+                  [
+                    -175.683395,
+                    70.548302
+                  ],
+                  [
+                    -176.709991,
+                    72.311798
+                  ],
+                  [
+                    -179.9999999,
+                    72.05762471783798
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    179.9999999,
+                    72.05762471783798
+                  ],
+                  [
+                    176.197754,
+                    71.763878
+                  ],
+                  [
+                    177.807373,
+                    70.033928
+                  ],
+                  [
+                    179.9999999,
+                    70.20719426558986
+                  ],
+                  [
+                    179.9999999,
+                    72.05762471783798
+                  ]
+                ]
+              ]
+            ]
+          },
+          "id": "S1A_IW_GRDH_1SDH_20260221T051805_20260221T051835_063313_07F367_DA60_COG",
+          "links": [
+            {
+              "rel": "collection",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "parent",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd"
+            },
+            {
+              "rel": "root",
+              "type": "application/json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/"
+            },
+            {
+              "rel": "self",
+              "type": "application/geo+json",
+              "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-1-grd/items/S1A_IW_GRDH_1SDH_20260221T051805_20260221T051835_063313_07F367_DA60_COG"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

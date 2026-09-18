@@ -1,0 +1,805 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                51.95702449803951,
+                70.94689425619887
+              ],
+              [
+                52.17073630430696,
+                71.00276323231515
+              ],
+              [
+                52.003682284600714,
+                71.07445235733428
+              ],
+              [
+                51.78966015815629,
+                71.01838074205209
+              ],
+              [
+                51.95702449803951,
+                70.94689425619887
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "barents",
+        "datetime": "2025-12-11T02:59:49.549578Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20251211T025934_20251211T030004_005398_00ABD9",
+        "qualified_area_km2": 22.6433
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                51.95702449803951,
+                70.94689425619887
+              ],
+              [
+                52.17073630430696,
+                71.00276323231515
+              ],
+              [
+                52.003682284600714,
+                71.07445235733428
+              ],
+              [
+                51.78966015815629,
+                71.01838074205209
+              ],
+              [
+                51.95702449803951,
+                70.94689425619887
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "barents",
+        "datetime": "2025-12-23T02:59:48.751987Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20251223T025934_20251223T030003_005573_00B1D5",
+        "qualified_area_km2": 0.0001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                51.95702449803951,
+                70.94689425619887
+              ],
+              [
+                52.17073630430696,
+                71.00276323231515
+              ],
+              [
+                52.003682284600714,
+                71.07445235733428
+              ],
+              [
+                51.78966015815629,
+                71.01838074205209
+              ],
+              [
+                51.95702449803951,
+                70.94689425619887
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "barents",
+        "datetime": "2026-01-04T02:59:50.988335Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20260104T025936_20260104T030005_005748_00B7D9",
+        "qualified_area_km2": 0.0331
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                51.95702449803951,
+                70.94689425619887
+              ],
+              [
+                52.17073630430696,
+                71.00276323231515
+              ],
+              [
+                52.003682284600714,
+                71.07445235733428
+              ],
+              [
+                51.78966015815629,
+                71.01838074205209
+              ],
+              [
+                51.95702449803951,
+                70.94689425619887
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "barents",
+        "datetime": "2026-01-28T02:59:50.135235Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20260128T025935_20260128T030004_006098_00C3B9",
+        "qualified_area_km2": 16.7752
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                74.39179981125362,
+                73.44424274529885
+              ],
+              [
+                74.69177710455962,
+                73.46837642840717
+              ],
+              [
+                74.60911437711722,
+                73.555685504885
+              ],
+              [
+                74.30768027475449,
+                73.53142770932834
+              ],
+              [
+                74.39179981125362,
+                73.44424274529885
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "kara",
+        "datetime": "2025-12-07T01:53:15.040469Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20251207T015300_20251207T015329_005339_00A9C9",
+        "qualified_area_km2": 18.6978
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                74.39179981125362,
+                73.44424274529885
+              ],
+              [
+                74.69177710455962,
+                73.46837642840717
+              ],
+              [
+                74.60911437711722,
+                73.555685504885
+              ],
+              [
+                74.30768027475449,
+                73.53142770932834
+              ],
+              [
+                74.39179981125362,
+                73.44424274529885
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "kara",
+        "datetime": "2025-12-31T01:53:13.776165Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20251231T015259_20251231T015328_005689_00B5D1",
+        "qualified_area_km2": 35.9355
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                74.39179981125362,
+                73.44424274529885
+              ],
+              [
+                74.69177710455962,
+                73.46837642840717
+              ],
+              [
+                74.60911437711722,
+                73.555685504885
+              ],
+              [
+                74.30768027475449,
+                73.53142770932834
+              ],
+              [
+                74.39179981125362,
+                73.44424274529885
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "kara",
+        "datetime": "2026-01-24T01:53:12.221491Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20260124T015257_20260124T015326_006039_00C1B6",
+        "qualified_area_km2": 18.2075
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                74.39179981125362,
+                73.44424274529885
+              ],
+              [
+                74.69177710455962,
+                73.46837642840717
+              ],
+              [
+                74.60911437711722,
+                73.555685504885
+              ],
+              [
+                74.30768027475449,
+                73.53142770932834
+              ],
+              [
+                74.39179981125362,
+                73.44424274529885
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "kara",
+        "datetime": "2026-02-17T01:53:12.036633Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20260217T015257_20260217T015326_006389_00CDAC",
+        "qualified_area_km2": 32.6937
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                129.26435608881513,
+                73.81977423830381
+              ],
+              [
+                129.509834132755,
+                73.76234381867013
+              ],
+              [
+                129.712414000624,
+                73.83206715828352
+              ],
+              [
+                129.46659784871142,
+                73.88973895767141
+              ],
+              [
+                129.26435608881513,
+                73.81977423830381
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "laptev",
+        "datetime": "2025-12-08T22:19:12.733851Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20251208T221858_20251208T221927_005366_00AAC3",
+        "qualified_area_km2": 6.5817
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                129.26435608881513,
+                73.81977423830381
+              ],
+              [
+                129.509834132755,
+                73.76234381867013
+              ],
+              [
+                129.712414000624,
+                73.83206715828352
+              ],
+              [
+                129.46659784871142,
+                73.88973895767141
+              ],
+              [
+                129.26435608881513,
+                73.81977423830381
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "laptev",
+        "datetime": "2026-01-01T22:19:11.484391Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20260101T221856_20260101T221926_005716_00B6C0",
+        "qualified_area_km2": 13.0286
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                129.26435608881513,
+                73.81977423830381
+              ],
+              [
+                129.509834132755,
+                73.76234381867013
+              ],
+              [
+                129.712414000624,
+                73.83206715828352
+              ],
+              [
+                129.46659784871142,
+                73.88973895767141
+              ],
+              [
+                129.26435608881513,
+                73.81977423830381
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "laptev",
+        "datetime": "2026-01-25T22:19:10.335285Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20260125T221855_20260125T221924_006066_00C2AA",
+        "qualified_area_km2": 3.5858
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                129.26435608881513,
+                73.81977423830381
+              ],
+              [
+                129.509834132755,
+                73.76234381867013
+              ],
+              [
+                129.712414000624,
+                73.83206715828352
+              ],
+              [
+                129.46659784871142,
+                73.88973895767141
+              ],
+              [
+                129.26435608881513,
+                73.81977423830381
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "laptev",
+        "datetime": "2026-02-18T22:19:09.718022Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20260218T221855_20260218T221924_006416_00CEAB",
+        "qualified_area_km2": 14.3157
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                157.42673685491746,
+                71.72876447271311
+              ],
+              [
+                157.53451223691934,
+                71.64490990986243
+              ],
+              [
+                157.7944539753366,
+                71.67940893134589
+              ],
+              [
+                157.68766147802114,
+                71.76341627154541
+              ],
+              [
+                157.42673685491746,
+                71.72876447271311
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "east_siberian",
+        "datetime": "2025-12-12T20:08:13.206113Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20251212T200758_20251212T200827_005423_00ACB5",
+        "qualified_area_km2": 0.7939
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                157.42673685491746,
+                71.72876447271311
+              ],
+              [
+                157.53451223691934,
+                71.64490990986243
+              ],
+              [
+                157.7944539753366,
+                71.67940893134589
+              ],
+              [
+                157.68766147802114,
+                71.76341627154541
+              ],
+              [
+                157.42673685491746,
+                71.72876447271311
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "east_siberian",
+        "datetime": "2026-01-05T20:08:11.842380Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20260105T200757_20260105T200826_005773_00B8B5",
+        "qualified_area_km2": 4.8073
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                157.42673685491746,
+                71.72876447271311
+              ],
+              [
+                157.53451223691934,
+                71.64490990986243
+              ],
+              [
+                157.7944539753366,
+                71.67940893134589
+              ],
+              [
+                157.68766147802114,
+                71.76341627154541
+              ],
+              [
+                157.42673685491746,
+                71.72876447271311
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "east_siberian",
+        "datetime": "2026-01-29T20:08:11.648992Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20260129T200756_20260129T200826_006123_00C496",
+        "qualified_area_km2": 3.9321
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                157.42673685491746,
+                71.72876447271311
+              ],
+              [
+                157.53451223691934,
+                71.64490990986243
+              ],
+              [
+                157.7944539753366,
+                71.67940893134589
+              ],
+              [
+                157.68766147802114,
+                71.76341627154541
+              ],
+              [
+                157.42673685491746,
+                71.72876447271311
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "east_siberian",
+        "datetime": "2026-02-22T20:08:10.382859Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1C_IW_GRDH_1SDV_20260222T200755_20260222T200825_006473_00D0A5",
+        "qualified_area_km2": 9.7145
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -176.580846840745,
+                70.8038371697037
+              ],
+              [
+                -176.59679027668585,
+                70.71309133410979
+              ],
+              [
+                -176.33000993279816,
+                70.7074831950738
+              ],
+              [
+                -176.31282331847262,
+                70.79820360826604
+              ],
+              [
+                -176.580846840745,
+                70.8038371697037
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "chukchi",
+        "datetime": "2025-12-11T05:18:26.194633Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1A_IW_GRDH_1SDH_20251211T051811_20251211T051841_062263_07CBA9",
+        "qualified_area_km2": 15.5798
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -176.580846840745,
+                70.8038371697037
+              ],
+              [
+                -176.59679027668585,
+                70.71309133410979
+              ],
+              [
+                -176.33000993279816,
+                70.7074831950738
+              ],
+              [
+                -176.31282331847262,
+                70.79820360826604
+              ],
+              [
+                -176.580846840745,
+                70.8038371697037
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "chukchi",
+        "datetime": "2026-01-04T05:18:23.639862Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1A_IW_GRDH_1SDH_20260104T051808_20260104T051838_062613_07D93C",
+        "qualified_area_km2": 1.835
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -176.580846840745,
+                70.8038371697037
+              ],
+              [
+                -176.59679027668585,
+                70.71309133410979
+              ],
+              [
+                -176.33000993279816,
+                70.7074831950738
+              ],
+              [
+                -176.31282331847262,
+                70.79820360826604
+              ],
+              [
+                -176.580846840745,
+                70.8038371697037
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "chukchi",
+        "datetime": "2026-01-28T05:18:21.957477Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1A_IW_GRDH_1SDH_20260128T051807_20260128T051836_062963_07E647",
+        "qualified_area_km2": 5.123
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -176.580846840745,
+                70.8038371697037
+              ],
+              [
+                -176.59679027668585,
+                70.71309133410979
+              ],
+              [
+                -176.33000993279816,
+                70.7074831950738
+              ],
+              [
+                -176.31282331847262,
+                70.79820360826604
+              ],
+              [
+                -176.580846840745,
+                70.8038371697037
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "chukchi",
+        "datetime": "2026-02-21T05:18:20.546650Z",
+        "processing": "native_10m_target_screening",
+        "classification_validated": false,
+        "source_id": "S1A_IW_GRDH_1SDH_20260221T051805_20260221T051835_063313_07F367",
+        "qualified_area_km2": 3.0946
+      }
+    }
+  ]
+}

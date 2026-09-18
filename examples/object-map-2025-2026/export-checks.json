@@ -1,0 +1,7 @@
+{
+  "all_geometries_valid": true,
+  "all_complete_diameters_at_least_30m": true,
+  "no_truncated_in_main_layer": true,
+  "no_unfounded_grounding_claim": true,
+  "frames_match_selection": true
+}

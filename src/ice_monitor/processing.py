@@ -54,7 +54,7 @@ def optical_mask(green, swir, scl, ocean, config):
     iterations = math.ceil(config["cloud_buffer_m"] / config["resolution_m"])
     if iterations:
         bad = ndimage.binary_dilation(bad, iterations=iterations)
-    valid = ocean & ~bad & np.isfinite(green) & np.isfinite(swir)
+    valid = ocean & ~bad & np.isfinite(green) & np.isfinite(swir) & (green >= 0) & (swir >= 0)
     denominator = green + swir
     ndsi = np.divide(green - swir, denominator, out=np.full_like(green, np.nan),
                      where=denominator > 1e-6)
@@ -95,6 +95,11 @@ def vectorize(ice, valid, affine, config, sensor="S2", effective_resolution=20):
 def process_s2(item, config, affine, ocean):
     if item.get("collection") not in ["sentinel-2-l2a", "sentinel-2-c1-l2a"]:
         raise ValueError("Expected Sentinel-2 L2A; unsupported product level")
+    if (item.get("collection") == "sentinel-2-l2a"
+            and item.get("properties", {}).get("earthsearch:boa_offset_applied") is True
+            and any(item["assets"][k].get("raster:bands", [{}])[0].get("offset", 0) != 0
+                    for k in ["green", "swir16"])):
+        raise ValueError("Conflicting legacy BOA offset metadata; use sentinel-2-c1-l2a")
     arrays = [read_asset(item["assets"][key], config, affine, ocean.shape, key == "scl")
               for key in ["green", "swir16", "scl"]]
     ice, valid = optical_mask(*arrays, ocean, config)

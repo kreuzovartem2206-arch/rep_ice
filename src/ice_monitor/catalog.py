@@ -20,8 +20,8 @@ def session():
     return result
 
 
-def s2_search(bbox, start, end, max_items=300):
-    params = {"collections": "sentinel-2-l2a", "bbox": ",".join(map(str, bbox)),
+def s2_search(bbox, start, end, max_items=300, collection="sentinel-2-c1-l2a"):
+    params = {"collections": collection, "bbox": ",".join(map(str, bbox)),
               "datetime": f"{start}/{end}", "limit": 100,
               "sortby": "+properties.datetime"}
     items, seen = [], set()

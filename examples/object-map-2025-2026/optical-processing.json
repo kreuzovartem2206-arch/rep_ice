@@ -1,0 +1,486 @@
+{
+  "full_arctic_complete": false,
+  "settings": {
+    "green_thresholds": [
+      0.15,
+      0.18,
+      0.21
+    ],
+    "central_threshold": 0.18,
+    "ndsi_threshold": 0.4,
+    "minimum_diameter_m": 30,
+    "marker_prominence_pixels": 3,
+    "cloud_buffer_m": 60,
+    "stability_iou_threshold": 0.6,
+    "method": "distance_watershed_experimental_v1"
+  },
+  "frames": [
+    {
+      "source_id": "S2C_T39WWU_20260225T085937_L2A",
+      "region": "barents",
+      "datetime": "2026-02-25T09:00:06.641000Z",
+      "candidate_count": 275,
+      "complete_candidates": 125,
+      "complete_stable_candidates": 42,
+      "valid_area_km2": 69.8306,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        -1304950.0,
+        -1667680.0,
+        -1294950.0,
+        -1657680.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2B_T39WWU_20260227T084820_L2A",
+      "region": "barents",
+      "datetime": "2026-02-27T08:50:06.268000Z",
+      "candidate_count": 47,
+      "complete_candidates": 2,
+      "complete_stable_candidates": 0,
+      "valid_area_km2": 62.8968,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        -1304950.0,
+        -1667680.0,
+        -1294950.0,
+        -1657680.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2C_T39WWU_20260226T082919_L2A",
+      "region": "barents",
+      "datetime": "2026-02-26T08:30:14.044000Z",
+      "candidate_count": 142,
+      "complete_candidates": 44,
+      "complete_stable_candidates": 21,
+      "valid_area_km2": 52.763,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        -1304950.0,
+        -1667680.0,
+        -1294950.0,
+        -1657680.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2C_T01WEU_20260219T234626_L2A",
+      "region": "chukchi",
+      "datetime": "2026-02-19T23:46:36.007000Z",
+      "candidate_count": 11,
+      "complete_candidates": 3,
+      "complete_stable_candidates": 1,
+      "valid_area_km2": 99.8757,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        2129500.0,
+        127230.0,
+        2139500.0,
+        137230.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2C_T01WEU_20260222T235615_L2A",
+      "region": "chukchi",
+      "datetime": "2026-02-22T23:56:31.487000Z",
+      "candidate_count": 41,
+      "complete_candidates": 0,
+      "complete_stable_candidates": 0,
+      "valid_area_km2": 28.2993,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        2129500.0,
+        127230.0,
+        2139500.0,
+        137230.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2B_T01WEU_20260227T235612_L2A",
+      "region": "chukchi",
+      "datetime": "2026-02-27T23:56:27.873000Z",
+      "candidate_count": 27,
+      "complete_candidates": 0,
+      "complete_stable_candidates": 0,
+      "valid_area_km2": 9.1766,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        2129500.0,
+        127230.0,
+        2139500.0,
+        137230.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2B_T56WPE_20260228T013649_L2A",
+      "region": "east_siberian",
+      "datetime": "2026-02-28T01:37:02.135000Z",
+      "candidate_count": 1,
+      "complete_candidates": 0,
+      "complete_stable_candidates": 0,
+      "valid_area_km2": 100.0,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        1875840.0,
+        -779810.0,
+        1885840.0,
+        -769810.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2C_T56WPE_20260226T014651_L2A",
+      "region": "east_siberian",
+      "datetime": "2026-02-26T01:47:03.700000Z",
+      "candidate_count": 1,
+      "complete_candidates": 0,
+      "complete_stable_candidates": 0,
+      "valid_area_km2": 100.0,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        1875840.0,
+        -779810.0,
+        1885840.0,
+        -769810.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2C_T57WVV_20260223T013653_L2A",
+      "region": "east_siberian",
+      "datetime": "2026-02-23T01:37:04.844000Z",
+      "candidate_count": 16,
+      "complete_candidates": 0,
+      "complete_stable_candidates": 0,
+      "valid_area_km2": 99.5161,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        1875840.0,
+        -779810.0,
+        1885840.0,
+        -769810.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2B_T43XDB_20260226T073758_L2A",
+      "region": "kara",
+      "datetime": "2026-02-26T07:38:49.344000Z",
+      "candidate_count": 62,
+      "complete_candidates": 37,
+      "complete_stable_candidates": 4,
+      "valid_area_km2": 100.0,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        -495670.0,
+        -1774310.0,
+        -485670.0,
+        -1764310.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2B_T43XDB_20260220T071824_L2A",
+      "region": "kara",
+      "datetime": "2026-02-20T07:18:51.775000Z",
+      "candidate_count": 4,
+      "complete_candidates": 0,
+      "complete_stable_candidates": 0,
+      "valid_area_km2": 99.913,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        -495670.0,
+        -1774310.0,
+        -485670.0,
+        -1764310.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2C_T43XDB_20260228T072839_L2A",
+      "region": "kara",
+      "datetime": "2026-02-28T07:28:54.493000Z",
+      "candidate_count": 42,
+      "complete_candidates": 4,
+      "complete_stable_candidates": 0,
+      "valid_area_km2": 84.4839,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        -495670.0,
+        -1774310.0,
+        -485670.0,
+        -1764310.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2B_T52XEG_20260224T033631_L2A",
+      "region": "laptev",
+      "datetime": "2026-02-24T03:37:16.237000Z",
+      "candidate_count": 1,
+      "complete_candidates": 0,
+      "complete_stable_candidates": 0,
+      "valid_area_km2": 100.0,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        1139700.0,
+        -1394210.0,
+        1149700.0,
+        -1384210.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2B_T52XEG_20260227T034617_L2A",
+      "region": "laptev",
+      "datetime": "2026-02-27T03:47:14.893000Z",
+      "candidate_count": 4,
+      "complete_candidates": 0,
+      "complete_stable_candidates": 0,
+      "valid_area_km2": 99.0599,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.0,
+      "bounds": [
+        1139700.0,
+        -1394210.0,
+        1149700.0,
+        -1384210.0
+      ],
+      "source_level": "L2A"
+    },
+    {
+      "source_id": "S2B_T52XEG_20260223T040702_L2A",
+      "region": "laptev",
+      "datetime": "2026-02-23T04:07:11.519000Z",
+      "candidate_count": 6,
+      "complete_candidates": 0,
+      "complete_stable_candidates": 0,
+      "valid_area_km2": 56.469,
+      "settings": {
+        "green_thresholds": [
+          0.15,
+          0.18,
+          0.21
+        ],
+        "central_threshold": 0.18,
+        "ndsi_threshold": 0.4,
+        "minimum_diameter_m": 30,
+        "marker_prominence_pixels": 3,
+        "cloud_buffer_m": 60,
+        "stability_iou_threshold": 0.6,
+        "method": "distance_watershed_experimental_v1"
+      },
+      "negative_reflectance_fraction": 0.00013,
+      "bounds": [
+        1139700.0,
+        -1394210.0,
+        1149700.0,
+        -1384210.0
+      ],
+      "source_level": "L2A"
+    }
+  ],
+  "complete_candidates": 215,
+  "complete_stable_candidates": 68
+}

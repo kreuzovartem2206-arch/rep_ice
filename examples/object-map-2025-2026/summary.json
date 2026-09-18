@@ -1,0 +1,65 @@
+{
+  "status": "partial_experimental_object_map",
+  "full_arctic_complete": false,
+  "nominal_processed_area_km2": 500,
+  "optical_frames": 15,
+  "sar_frames": 20,
+  "candidate_observations": 215,
+  "threshold_stable_observations": 68,
+  "confirmed_stamukhi": 0,
+  "persistent_radar_targets": 0,
+  "isolated_stable_observations": 29,
+  "minimum_equivalent_diameter_m": 30,
+  "completeness_at_30m_validated": false,
+  "regions": [
+    {
+      "region": "barents",
+      "name": "Баренцево море",
+      "candidate_observations": 171,
+      "threshold_stable_observations": 63,
+      "radar_target_observations": 0,
+      "optical_usable_union_km2": 92.6753,
+      "radar_qualified_union_km2": 35.0342
+    },
+    {
+      "region": "kara",
+      "name": "Карское море",
+      "candidate_observations": 41,
+      "threshold_stable_observations": 4,
+      "radar_target_observations": 126,
+      "optical_usable_union_km2": 100.0,
+      "radar_qualified_union_km2": 68.5941
+    },
+    {
+      "region": "laptev",
+      "name": "Море Лаптевых",
+      "candidate_observations": 0,
+      "threshold_stable_observations": 0,
+      "radar_target_observations": 76,
+      "optical_usable_union_km2": 100.0,
+      "radar_qualified_union_km2": 27.1311
+    },
+    {
+      "region": "east_siberian",
+      "name": "Восточно-Сибирское море",
+      "candidate_observations": 0,
+      "threshold_stable_observations": 0,
+      "radar_target_observations": 61,
+      "optical_usable_union_km2": 100.0,
+      "radar_qualified_union_km2": 15.3128
+    },
+    {
+      "region": "chukchi",
+      "name": "Чукотское море",
+      "candidate_observations": 3,
+      "threshold_stable_observations": 1,
+      "radar_target_observations": 17,
+      "optical_usable_union_km2": 99.8757,
+      "radar_qualified_union_km2": 23.5718
+    }
+  ],
+  "note": "Counts are observations, not unique tracked floes; stability is not correctness. No grounding evidence was available.",
+  "optical_usable_union_km2": 492.551,
+  "radar_qualified_union_km2": 169.644,
+  "union_area_note": "Union across different observation dates; not simultaneous coverage."
+}
