@@ -1,0 +1,14 @@
+{
+  "regions": 5,
+  "optical_frames": 15,
+  "radar_frames": 20,
+  "optical_objects": 215,
+  "radar_objects": 280,
+  "overview_months": 3,
+  "standalone_bytes": 14216625,
+  "ui_logic_check": "passed_jsdom",
+  "scene_switches_checked": 35,
+  "browser_visual_check": "blocked_local_file_url_policy",
+  "new_satellite_processing": false,
+  "object_processed_area_km2": 500
+}

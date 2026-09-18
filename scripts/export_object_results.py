@@ -16,6 +16,7 @@ from PIL import Image
 from pyproj import Transformer
 from shapely.geometry import shape, mapping
 from shapely.ops import transform
+from build_arctic_map import build as build_arctic_map
 
 NAMES={'barents':'Баренцево море','kara':'Карское море','laptev':'Море Лаптевых',
        'east_siberian':'Восточно-Сибирское море','chukchi':'Чукотское море'}
@@ -148,7 +149,7 @@ def main():
     template=Path(__file__).with_name('object_review_template.html').read_text(encoding='utf-8')
     overview_b64=base64.b64encode((out/'coverage.png').read_bytes()).decode()
     html=template.replace('__FRAMES__',json.dumps(ui,ensure_ascii=False,separators=(',',':'))).replace('__OVERVIEW__',overview_b64)
-    (out/'map.html').write_text(html,encoding='utf-8')
+    (out/'detail-map.html').write_text(html,encoding='utf-8')
     shutil.copy2(out/'evidence/kara/S2B_T43XDB_20260226T073758_L2A/map.png',out/'kara-candidates.png')
     checks={'all_geometries_valid':all(shape(f['geometry']).is_valid for f in all_floes),
             'all_complete_diameters_at_least_30m':all(f['properties']['equivalent_diameter_m']>=30 for f in complete),
@@ -157,6 +158,7 @@ def main():
             'frames_match_selection':len(ui)==len(optical['frames'])}
     if not all(checks.values()):raise ValueError(checks)
     save(out/'export-checks.json',checks)
+    build_arctic_map(out, args.overview, root/'native', out/'map.html')
     print(json.dumps(summary,ensure_ascii=False,indent=2))
 
 
