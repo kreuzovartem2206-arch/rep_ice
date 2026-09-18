@@ -39,6 +39,7 @@ def build(results, overview, native, output):
     radar=read(results/'radar-processing.json');forward=Transformer.from_crs(4326,3576,always_xy=True)
     candidates=read(results/'floe-candidates.geojson')['features']
     targets=read(results/'radar-targets.geojson')['features']
+    assets=read(results/'map-assets.json') if (results/'map-assets.json').exists() else {}
     def objects(features):
         return [{'path':paths(transform(forward.transform,shape(f['geometry']))),'properties':f['properties']} for f in features]
     regions=[]
@@ -48,14 +49,26 @@ def build(results, overview, native, output):
         for frame in optical['frames']:
             if frame['region']!=rid:continue
             source=results/'evidence'/rid/frame['source_id']
-            image='data:image/jpeg;base64,'+base64.b64encode((source/'image.jpg').read_bytes()).decode()
+            asset=assets.get(rid+':'+frame['source_id'])
+            image=asset['image'] if asset else 'data:image/jpeg;base64,'+base64.b64encode((source/'image.jpg').read_bytes()).decode()
             frames.append({'sensor':'optical','id':frame['source_id'],'date':frame['datetime'][:10],
                            'image':image,'rect':rect(frame['bounds']),'usable':frame['valid_area_km2'],
-                           'objects':objects([f for f in candidates if f['properties']['source_id']==frame['source_id'] and f['properties']['region']==rid]),
+                           'tiles':asset['tiles'] if asset else [],
+                           'quality':asset.get('quality') if asset else None,
+                           'objects':objects([f for f in candidates if f['properties'].get('frame_id',f['properties']['source_id'])==frame['source_id'] and f['properties']['region']==rid]),
                            'source':'https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/'+frame['source_id']})
         for frame in radar['frames']:
             if frame['region']!=rid:continue
             date=frame['datetime'][:10]
+            asset=assets.get(rid+':'+frame['source_id'])
+            if asset:
+                frames.append({'sensor':'radar','id':frame['source_id'],'date':date,
+                               'image':asset['image'],'tiles':asset['tiles'],'rect':rect(frame['bounds']),
+                               'quality':asset.get('quality'),
+                               'usable':frame['qualified_area_km2'],
+                               'objects':objects([f for f in targets if f['properties'].get('frame_id',f['properties']['source_id'])==frame['source_id'] and f['properties']['region']==rid]),
+                               'source':frame['source_url']})
+                continue
             with rasterio.open(native/rid/(date+'.tif')) as src:
                 if str(src.crs)!='EPSG:3576':raise ValueError('Unexpected native raster CRS')
                 signal=src.read(1);bounds=list(src.bounds)
@@ -103,7 +116,7 @@ def build(results, overview, native, output):
             'radar_frames':sum(f['sensor']=='radar' for r in regions for f in r['frames']),
             'optical_objects':sum(len(f['objects']) for r in regions for f in r['frames'] if f['sensor']=='optical'),
             'radar_objects':sum(len(f['objects']) for r in regions for f in r['frames'] if f['sensor']=='radar'),
-            'overview_months':len(mosaics),'standalone_bytes':output.stat().st_size}
+            'overview_months':len(mosaics),'html_bytes':output.stat().st_size,'self_contained':not bool(assets)}
     assert counts['optical_objects']==summary['candidate_observations']
     assert counts['radar_objects']==radar['target_observations']
     output.with_suffix('.validation.json').write_text(json.dumps(counts,indent=2),encoding='utf-8')

@@ -58,9 +58,25 @@ def label_iou(reference, variant, label):
     return max(scores,default=0)
 
 
+def all_label_ious(reference, variant):
+    """Best IoU per reference label, including the variant's full global area."""
+    reference_sizes=np.bincount(reference.ravel())
+    variant_sizes=np.bincount(variant.ravel())
+    stride=len(variant_sizes)
+    encoded=reference.astype('int64').ravel()*stride+variant.ravel()
+    pairs,counts=np.unique(encoded,return_counts=True)
+    a,b=pairs//stride,pairs%stride
+    good=(a!=0)&(b!=0)
+    a,b,counts=a[good],b[good],counts[good]
+    scores=counts/(reference_sizes[a]+variant_sizes[b]-counts)
+    best=np.zeros(len(reference_sizes),dtype='float64')
+    np.maximum.at(best,a,scores)
+    return best
+
+
 def segment(folder, region, ocean_geometry, output):
     folder=Path(folder);output=Path(output);output.mkdir(parents=True,exist_ok=True)
-    item=json.loads((folder/'source.json').read_text())
+    item=json.loads((folder/'source.json').read_text(encoding='utf-8'))
     if item['collection']!='sentinel-2-c1-l2a':raise ValueError('Use unambiguous Collection 1 radiometry')
     with rasterio.open(folder/'reflectance.tif') as src:
         green,swir,scl=src.read();affine,crs=src.transform,src.crs
@@ -74,6 +90,8 @@ def segment(folder, region, ocean_geometry, output):
         variants.append(labels)
         if threshold==SETTINGS['central_threshold']:central,central_ice,valid=labels,ice,good
     sizes=np.bincount(central.ravel())
+    stability_by_label=np.minimum.reduce([all_label_ious(central,v) for v in variants])
+    label_slices=ndimage.find_objects(central)
     min_pixels=math.ceil(math.pi*(SETTINGS['minimum_diameter_m']/2)**2/100)
     keep=sizes>=min_pixels;keep[0]=False
     border=ndimage.binary_dilation(~valid)
@@ -85,9 +103,10 @@ def segment(folder, region, ocean_geometry, output):
     features=[];kept=np.where(keep[central],central,0).astype('int32')
     for geometry,label_float in shapes(kept,mask=kept>0,transform=affine):
         label=int(label_float);polygon=shape(geometry)
-        mask=central==label;boundary=mask&~ndimage.binary_erosion(mask)
-        inferred_fraction=float((boundary&inferred_adjacent).sum()/max(1,boundary.sum()))
-        stability=min(label_iou(central,v,label) for v in variants)
+        slices=label_slices[label-1]
+        mask=central[slices]==label;boundary=mask&~ndimage.binary_erosion(mask)
+        inferred_fraction=float((boundary&inferred_adjacent[slices]).sum()/max(1,boundary.sum()))
+        stability=float(stability_by_label[label])
         lon,lat=inverse(polygon.centroid.x,polygon.centroid.y)
         is_truncated=label in truncated
         props={'id':hashlib.sha256((item['id']+region+polygon.wkb_hex+SETTINGS['method']).encode()).hexdigest()[:16],
@@ -115,7 +134,7 @@ def segment(folder, region, ocean_geometry, output):
             'complete_stable_candidates':sum(f['properties']['threshold_stable'] for f in complete),
             'valid_area_km2':round(float(valid.sum())*.0001,4),'settings':SETTINGS,
             'negative_reflectance_fraction':float(((green<0)|(swir<0)).mean()),
-            'bounds':json.loads((folder/'status.json').read_text())['bounds'],'source_level':'L2A'}
+            'bounds':json.loads((folder/'status.json').read_text(encoding='utf-8'))['bounds'],'source_level':'L2A'}
     save(output/'status.json',status)
     return features,status
 
@@ -125,12 +144,12 @@ def main():
     p.add_argument('--overview',required=True);p.add_argument('--output',required=True)
     p.add_argument('--selection',required=True,help='Directory of selected-optical region manifests')
     args=p.parse_args()
-    projected=json.loads((Path(args.overview)/'projected.json').read_text())
+    projected=json.loads((Path(args.overview)/'projected.json').read_text(encoding='utf-8'))
     ocean=shape(projected['ocean']).buffer(-1000)
     features=[];statuses=[]
     sources=[]
     for manifest in sorted(Path(args.selection).glob('*.json')):
-        for selected in json.loads(manifest.read_text())['selected']:
+        for selected in json.loads(manifest.read_text(encoding='utf-8'))['selected']:
             sources.append(Path(args.optical)/selected['region']/selected['source_id']/'source.json')
     if not sources:raise ValueError('No selected optical frames')
     for source in sources:

@@ -66,7 +66,7 @@ def candidate_mask(co, cross, co_snr, cross_snr, ocean, spacing=10, parameters=N
 
 
 def detect(path, region_id, output, ocean_geometry=None):
-    path=Path(path);info=json.loads(path.with_suffix('.json').read_text())
+    path=Path(path);info=json.loads(path.with_suffix('.json').read_text(encoding='utf-8'))
     with rasterio.open(path) as src:
         if src.tags().get('product')!='experimental_annotation_calibrated_sigma0':
             raise ValueError('Expected native annotation-calibrated tile')
@@ -157,9 +157,9 @@ def repeated_locations(features, crs='EPSG:3576', parameters=None):
 
 
 def build(plan_path, native_root, overview_root, output):
-    plan=json.loads(Path(plan_path).read_text());output=Path(output);output.mkdir(parents=True,exist_ok=True)
+    plan=json.loads(Path(plan_path).read_text(encoding='utf-8'));output=Path(output);output.mkdir(parents=True,exist_ok=True)
     # The coarse shoreline is an explicit limitation, not a 30 m land mask.
-    projected=json.loads((Path(overview_root)/'projected.json').read_text())
+    projected=json.loads((Path(overview_root)/'projected.json').read_text(encoding='utf-8'))
     ocean=shape(projected['ocean']).buffer(-1000)
     all_features=[];statuses=[];coverage=[];missing=[]
     for region in plan['regions']:

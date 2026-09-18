@@ -6,6 +6,17 @@ from affine import Affine
 from shapely.geometry import box,shape
 from scipy import ndimage
 from ice_monitor.floe_instances import split_instances,segment
+from ice_monitor.floe_instances import label_iou,all_label_ious
+
+
+def test_bulk_iou_retains_global_variant_area_and_matches_reference():
+    reference=np.zeros((20,20),dtype='int32');variant=np.zeros_like(reference)
+    reference[2:5,2:5]=1;reference[12:16,12:16]=2
+    variant[:10,:10]=1;variant[12:15,12:15]=3
+    result=all_label_ious(reference,variant)
+    assert result[1]==.09
+    assert result[2]==9/16
+    assert all(result[i]==label_iou(reference,variant,i) for i in [1,2])
 
 
 def test_watershed_separates_neck_but_keeps_small_isolated_component():
